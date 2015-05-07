@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" name="Project management" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" name="Plan" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9" name="Auxiliar de estimación DELPHI y Pert" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90" name="Documento generado con EA: Estimación Use Case Points" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80" name="Hoja de cálculo estimación Function Points" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995" name="Hoja de cálculo estimación Use Case Points" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_A3507794_24E8_4db6_A243_5C862F8289DD" name="Plan de mediciones" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_45B9586A_5BAD_416c_824B_462AFBC98432" name="Plan de procura y logística" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339" name="Plan integrado del proyecto" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_09CB0B0E_4060_472a_B69F_B46B38055901" name="WBS y gráfica de Gantt" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_041B140B_210C_4085_BEA3_26EF82FA0034" name="$diagram://{10589C12-0C0F-4517-83BD-1F3999745F5A}" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183" name="..\AdminProyecto\Plan\PlanIntegrado\BibliotecaHNacozariPlanProyecto004.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946" name="..\AdminProyecto\Plan\ProcuracionyLogistica\BibliotecaHNacozariPlanProcyLogistica004.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariAuxEstimacion004.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_9D3FE687_1CA6_421e_9A2E_C10C796CCB40" name="Documentación de requisitos" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionFP004.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.RTF" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariPlanDeMetricas002.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Plan\WBSyGantt\BibliotecaHNacozariPlan006.pod" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" name="QA" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362" name="Auditoría QA: no confomidades y observaciones" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42" name="Bitácora de SCOs y gráfica de MTBF" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746" name="Plan de aseguramiento y control de calidad" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC" name="..\AdminProyecto\QA\Auditorias\BibliotecaHNacozariNoConformidades20090814.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60" name="..\Mantenimiento\BibliotecaHNacozariMedicionCalidadyBitcraMantenim.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" name="..\AdminProyecto\QA\PlanCalidad\BibliotecaHNacozariPlanCalidad004.doc" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" name="Communication" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30" name="Minuta de la entrevista 11/08/2009" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0" name="Responsabilidades de comunicación con el cliente" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014" name="..\AdminProyecto\Comunicacion\EntrevistasySesiones\BibliotecaHNacozariMinuta20090811.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Comunicacion\Responsabilidades\BibliotecaHNacozariComunicCliente002.doc" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" name="Configuration" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019" name="Control de versiones de elementos de configuración" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15" name="Plan de manejo de versiones y configuraciones" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariCtrlVersiones009.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariPlanConfig004.doc" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" name="Requirements" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A" name="Documento de visión y alcances" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_80BE9998_BE37_4998_92BB_6B29551479E9" name="Especificación de requisitos" visibility="public"/>
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_E000F057_34AB_4290_938C_81B30A31EC46" name="Matriz de trazabilidad de requisitos" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_262250ED_279E_4560_9F87_ED2DA14ACB00" name="Modificaciones significativas rechazadas" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariVisionyAlcances004.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariMatrizReqs004.xls" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_8BDB4925_C4A0_4e4a_A6C2_B2B55240B120" name="..\AdminProyecto\Requisitos\Cambios\BibliotecaHNacozariSolicitudModific20090828.doc" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_CAED5B57_3CD5_451d_BA54_5DD938B81A58" name="Modificaciones significativas aceptadas" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariEspecificRequisitos004.docx" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901" name="Risk" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E" name="Análisis de riesgos" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9" name="..\AdminProyecto\Riesgos\BibliotecaHNacozariRiesgos004.xls" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_73E0222B_E645_4c8e_A188_2920CD079336" name="Costs and earned value" visibility="public">
+				<packagedElement xmi:type="uml:Artifact" xmi:id="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5" name="Planeación de costos y seguimiento mediante EVM (valor devengado)" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" name="..\AdminProyecto\Seguimiento\BibliotecaHNacozariValorDevengado004.xls" visibility="public"/>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" xmi:type="uml:Package" name="Project management" scope="public">
+				<model package2="EAID_6AB8B536_258A_4f51_A830_228A2824F7CD" package="EAPK_E61BCCAA_FF14_46fc_8126_2606D88239F0" tpos="2" ea_localid="27" ea_eleType="package"/>
+				<properties documentation="Este paquete contiene las secciones correspondientes a la documentación para la administración y dirección del proyecto, mismos que contienen diagramas con hipervínculos a esta documentación." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Jaime González V." version="016" phase="1.0" created="2009-03-23 12:35:55" modified="2015-05-06 11:09:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="NuLibrary"/>
+				<packageproperties version="016" owner="Jaime González V." xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="2"/>
+				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\XMLScripts\ProjMngmt.xml"/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 11:56:39" lastloaddate="2010-09-12 12:14:23" lastsavedate="2015-05-07 12:42:40"/>
+				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;RTF=F;Recurse=1;"/>
+			</element>
+			<element xmi:idref="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" xmi:type="uml:Package" name="Plan" scope="public">
+				<model package2="EAID_E4056B6D_DBE8_4f7d_815F_D793B57575A5" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="1" ea_localid="28" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 12:59:31" modified="2009-03-23 12:59:31" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="1"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2009-03-23 00:00:00" lastloaddate="2010-06-16 11:00:22" lastsavedate="2010-06-16 11:00:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9" xmi:type="uml:Artifact" name="Auxiliar de estimación DELPHI y Pert" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="45" ea_eleType="element"/>
+				<properties documentation="Hoja de cálculo con formatos auxiliares para realizar estimaciones: supuestos, convergencia Delphi, PERT para materiales y costos, PERT para esfuerzo, tablas de porcentajes para ciclos de vida y cálculo de curva de aprendizaje.&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:27:51" modified="2009-09-11 16:28:38" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={A791433E-3770-4235-B59F-1AEC220AA066}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5F8630B1-C357-4188-8C6F-63FC833E07F9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_DDC3CC49_8B00_4b7e_8626_D6CED4507754" start="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F" end="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90" xmi:type="uml:Artifact" name="Documento generado con EA: Estimación Use Case Points" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="46" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 16:34:26" modified="2009-09-11 16:35:06" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={64D7A273-4EB7-4528-9192-623FE1BEBB57}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={2B5FA84F-6924-4d56-BD23-D153FD845C90}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_892FAE40_292F_45f4_AF00_237013516CA3" start="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951" end="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80" xmi:type="uml:Artifact" name="Hoja de cálculo estimación Function Points" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="47" ea_eleType="element"/>
+				<properties documentation="Hoja de cálculo con la estimación en base a puntos de función. &#xA;&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 16:32:50" modified="2009-09-11 16:34:15" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={D2334FD6-74FE-4abf-A1C1-15E53A099B37}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={AF1771BA-C437-4590-9408-6B6CF9FEFB80}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_B76F477F_D6FB_43ab_B35F_1BB57EA6A8F8" start="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB" end="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995" xmi:type="uml:Artifact" name="Hoja de cálculo estimación Use Case Points" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="48" ea_eleType="element"/>
+				<properties documentation="Hoja de cálculo que contiene las estimaciones en base a la técnica de puntos de caso de uso.&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 16:29:22" modified="2009-09-11 16:32:43" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={2EF7379D-A5A2-4335-B137-5F0903B0E8EA}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={1A03AD10-7BBA-40f4-8DBC-EB16D0C49995}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_8EBA879D_7ADE_40c2_A690_6234991BAAE2" start="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF" end="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_A3507794_24E8_4db6_A243_5C862F8289DD" xmi:type="uml:Artifact" name="Plan de mediciones" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="49" ea_eleType="element"/>
+				<properties documentation="Plan que especifica las mediciones (&quot;métricas&quot;), mecanismos y responsables de obtenerlas, para cada fase del ciclo de vida.&#xA;" isSpecification="false" sType="Artifact" nType="0" alias="Plan de métricas" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:44:08" modified="2009-11-12 21:42:32" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={FB4DA1CD-363A-481f-8B67-1CE1E62AEFEF}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A3507794-24E8-4db6-A243-5C862F8289DD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_52170CD5_3F94_4faa_A6B1_8062D4482E67" start="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C" end="EAID_A3507794_24E8_4db6_A243_5C862F8289DD"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_45B9586A_5BAD_416c_824B_462AFBC98432" xmi:type="uml:Artifact" name="Plan de procura y logística" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="50" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:44:08" modified="2009-09-11 17:44:24" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={46F90F8C-E87E-4c42-B623-A5FFC7DAD528}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={45B9586A-5BAD-416c-824B-462AFBC98432}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_B3B7F1D8_2413_46f7_813E_49B9F2B2B097" start="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946" end="EAID_45B9586A_5BAD_416c_824B_462AFBC98432"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339" xmi:type="uml:Artifact" name="Plan integrado del proyecto" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="51" ea_eleType="element"/>
+				<properties documentation="Documento que contiene el plan que integra los mecanismos y procesos que se seguirán para planear y controlar las diferentes áreas de manejo del proyecto, tales como estructura de desglose tareas, tiempo, costo, personal, riesgos, asuntos, problemas, métricas..." isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 16:37:58" modified="2010-06-15 18:20:16" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={BFF7E9CE-2274-44c2-B2CD-AE427A6B8384}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B20E0F88-54A2-42d3-8C76-3CB2DCF60339}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_87DDA7E2_EF2F_4af8_A578_E37A41596073" start="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183" end="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_09CB0B0E_4060_472a_B69F_B46B38055901" xmi:type="uml:Artifact" name="WBS y gráfica de Gantt" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="52" ea_eleType="element"/>
+				<properties documentation="Estructura de desglose (WBS) y Gráfica de Gantt para desglose de trabajo y planificación del proyecto." isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:45:41" modified="2010-07-29 11:44:01" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={61BA9C7D-DF08-422b-AB88-F11CCA9B672F}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={09CB0B0E-4060-472a-B69F-B46B38055901}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_33B8F9A9_5264_41d4_AF9D_41BEC90EFA47" start="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA" end="EAID_09CB0B0E_4060_472a_B69F_B46B38055901"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_041B140B_210C_4085_BEA3_26EF82FA0034" xmi:type="uml:Text" name="$diagram://{10589C12-0C0F-4517-83BD-1F3999745F5A}" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="53" ea_eleType="element" name="$diagram://{10589C12-0C0F-4517-83BD-1F3999745F5A}"/>
+				<properties documentation="Consúltese el diagrama con la representación esquemática de la documentación de requisitos&#xA;" isSpecification="false" sType="Text" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:27:52" modified="2009-09-11 18:29:20" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=0;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan" diagram="EAID_10589C12_0C0F_4517_83BD_1F3999745F5A"/>
+			</element>
+			<element xmi:idref="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF" xmi:type="uml:Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.xls" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="54" ea_eleType="element" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Hoja de cálculo estimación UCP" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:31:01" modified="2010-09-12 12:04:09" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_8EBA879D_7ADE_40c2_A690_6234991BAAE2" start="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF" end="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183" xmi:type="uml:Text" name="..\AdminProyecto\Plan\PlanIntegrado\BibliotecaHNacozariPlanProyecto004.doc" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="55" ea_eleType="element" name="..\AdminProyecto\Plan\PlanIntegrado\BibliotecaHNacozariPlanProyecto004.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Plan integrado" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:38:02" modified="2010-09-12 12:00:46" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_87DDA7E2_EF2F_4af8_A578_E37A41596073" start="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183" end="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946" xmi:type="uml:Text" name="..\AdminProyecto\Plan\ProcuracionyLogistica\BibliotecaHNacozariPlanProcyLogistica004.doc" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="56" ea_eleType="element" name="..\AdminProyecto\Plan\ProcuracionyLogistica\BibliotecaHNacozariPlanProcyLogistica004.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Plan de procura y logística" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:44:33" modified="2010-09-12 12:04:26" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_B3B7F1D8_2413_46f7_813E_49B9F2B2B097" start="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946" end="EAID_45B9586A_5BAD_416c_824B_462AFBC98432"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F" xmi:type="uml:Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariAuxEstimacion004.xls" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="57" ea_eleType="element" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariAuxEstimacion004.xls"/>
+				<properties documentation="Hoja de cálculo con formatos auxiliares para realizar estimaciones: supuestos, convergencia Delphi, PERT para materiales y costos, PERT para esfuerzo, tablas de porcentajes para ciclos de vida." isSpecification="false" sType="Text" nType="19" alias="Auxiliar de estimación: Delphi y PERT" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-04-03 13:30:27" modified="2010-09-12 12:03:21" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_DDC3CC49_8B00_4b7e_8626_D6CED4507754" start="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F" end="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_9D3FE687_1CA6_421e_9A2E_C10C796CCB40" xmi:type="uml:Boundary" name="Documentación de requisitos" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="58" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:29:20" modified="2009-09-11 18:33:43" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=0;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+			</element>
+			<element xmi:idref="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB" xmi:type="uml:Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionFP004.xls" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="59" ea_eleType="element" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionFP004.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Estimación FP" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:36:19" modified="2010-09-12 12:05:48" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_B76F477F_D6FB_43ab_B35F_1BB57EA6A8F8" start="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB" end="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951" xmi:type="uml:Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.RTF" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="60" ea_eleType="element" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.RTF"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Estimación UCP con Enterprise Arch" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:35:25" modified="2010-09-12 12:05:12" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_892FAE40_292F_45f4_AF00_237013516CA3" start="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951" end="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C" xmi:type="uml:Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariPlanDeMetricas002.doc" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="61" ea_eleType="element" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariPlanDeMetricas002.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Plan de métricas" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-11-12 21:42:44" modified="2010-09-12 12:02:12" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_52170CD5_3F94_4faa_A6B1_8062D4482E67" start="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C" end="EAID_A3507794_24E8_4db6_A243_5C862F8289DD"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA" xmi:type="uml:Text" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Plan\WBSyGantt\BibliotecaHNacozariPlan006.pod" scope="public">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" tpos="0" ea_localid="62" ea_eleType="element" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Plan\WBSyGantt\BibliotecaHNacozariPlan006.pod"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese EDT (WBS) y Gantt" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:46:10" modified="2014-01-15 12:24:46" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Plan"/>
+				<links>
+					<NoteLink xmi:id="EAID_33B8F9A9_5264_41d4_AF9D_41BEC90EFA47" start="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA" end="EAID_09CB0B0E_4060_472a_B69F_B46B38055901"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" xmi:type="uml:Package" name="QA" scope="public">
+				<model package2="EAID_0B234114_EFBF_412c_BA84_593A995B8085" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="2" ea_localid="29" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Aseguramiento de calidad" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 12:59:52" modified="2015-05-06 12:04:37" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="2"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:04:37" lastloaddate="2010-06-16 11:00:22" lastsavedate="2010-06-16 11:00:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362" xmi:type="uml:Artifact" name="Auditoría QA: no confomidades y observaciones" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="64" ea_eleType="element"/>
+				<properties documentation="Documento donde se registran los resultados de la auditoría al personal del proyecto para revisar las conformidades y no-conformidades con el proceso y los estándares adoptados para el proyecto.  Este documento lo llena el responsable de la auditoría y se lo envía al gerente o director del proyecto y, si se define así, también a su superior.&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-18 22:46:50" modified="2009-10-28 13:22:18" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={9D1F2D7B-FD2B-4a94-8BB2-46C47139B838}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={CF95BF32-F19C-489d-8DB6-94F245B98362}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_47CC6F64_6D13_4cf2_887F_E99FC176A77D" start="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC" end="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42" xmi:type="uml:Artifact" name="Bitácora de SCOs y gráfica de MTBF" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="65" ea_eleType="element"/>
+				<properties documentation="Este documento sirve para registrar pendientes y órdenes de cambio (COs); tareas completadas; la bitácora de tiempo de actividad y de tiempos caídos; y tiempos medios entre fallas (MTBF).&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:16:49" modified="2009-09-11 16:24:02" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={D3A7091B-80F4-4708-899D-1E56C7C78B95}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={F863941F-0E0C-4ae5-85F8-88AEE65B0C42}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_CB1FC484_0A04_48e0_8881_F4EBDBEDF92E" start="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60" end="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746" xmi:type="uml:Artifact" name="Plan de aseguramiento y control de calidad" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="66" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González" version="001" phase="1.0" created="2010-09-11 22:58:54" modified="2010-09-11 22:59:11" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_96F8A4F5_AF2F_4bda_BCF3_5EAFDCDCBDE7" start="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" end="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC" xmi:type="uml:Text" name="..\AdminProyecto\QA\Auditorias\BibliotecaHNacozariNoConformidades20090814.xls" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="67" ea_eleType="element" name="..\AdminProyecto\QA\Auditorias\BibliotecaHNacozariNoConformidades20090814.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Resultados de la auditoría 14 ago 09" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-18 22:47:34" modified="2010-09-12 12:07:50" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_47CC6F64_6D13_4cf2_887F_E99FC176A77D" start="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC" end="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60" xmi:type="uml:Text" name="..\Mantenimiento\BibliotecaHNacozariMedicionCalidadyBitcraMantenim.xls" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="68" ea_eleType="element" name="..\Mantenimiento\BibliotecaHNacozariMedicionCalidadyBitcraMantenim.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Bitácora y gráfica de Tiempo Promedio Entre Fallas (MTBF)" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 16:24:08" modified="2010-09-12 12:08:05" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_CB1FC484_0A04_48e0_8881_F4EBDBEDF92E" start="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60" end="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" xmi:type="uml:Text" name="..\AdminProyecto\QA\PlanCalidad\BibliotecaHNacozariPlanCalidad004.doc" scope="public">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" tpos="0" ea_localid="69" ea_eleType="element" name="..\AdminProyecto\QA\PlanCalidad\BibliotecaHNacozariPlanCalidad004.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Plan de aseguramiento y control de calidad." scope="public"/>
+				<project author="Jaime González" version="001" phase="1.0" created="2010-09-11 22:59:28" modified="2010-09-12 12:07:15" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="QA"/>
+				<links>
+					<NoteLink xmi:id="EAID_96F8A4F5_AF2F_4bda_BCF3_5EAFDCDCBDE7" start="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" end="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" xmi:type="uml:Package" name="Communication" scope="public">
+				<model package2="EAID_C83DAB36_EF81_49f3_B03D_B14836105D5B" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="3" ea_localid="30" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 12:58:53" modified="2015-05-06 12:04:55" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="3"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:04:55" lastloaddate="2010-06-16 11:00:22" lastsavedate="2010-06-16 11:00:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30" xmi:type="uml:Artifact" name="Minuta de la entrevista 11/08/2009" scope="public">
+				<model package="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" tpos="0" ea_localid="71" ea_eleType="element"/>
+				<properties documentation="Documento donde quedaron registrados los asistentes, puntos tratados, pendientes y resultados de la reunión/entrevista realizada el 11 de ago. 2009 con el Director de Servicios Administrativos&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Rolando Pareja" version="001" phase="1.0" created="2009-09-11 15:50:18" modified="2009-09-18 21:10:02" complexity="1" status="Validated"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={33EE5575-FDF2-4bb6-AB05-9C12251DDCE9}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={CAE9D37A-A3FD-4d5e-B4AB-32DE20604F30}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Communication"/>
+				<links>
+					<NoteLink xmi:id="EAID_1DA72576_0A75_473d_B41F_029EAF19C7C5" start="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014" end="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0" xmi:type="uml:Artifact" name="Responsabilidades de comunicación con el cliente" scope="public">
+				<model package="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" tpos="0" ea_localid="72" ea_eleType="element"/>
+				<properties documentation="Documento donde se especifican las responsabilidades y responsables del cliente y de la organización que va a realizar el proyecto, y la forma de comunicación entre éstos.&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="002" phase="1.0" created="2009-09-11 15:50:18" modified="2009-09-11 15:50:52" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={B0332E87-DBF4-451b-8212-416950F0815D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={4CE8BE4E-5004-40e8-8BFA-AA0D7CFB88B0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Communication"/>
+				<links>
+					<NoteLink xmi:id="EAID_E2F0FBB6_7057_4c82_A371_C349A4C51D5B" start="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E" end="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014" xmi:type="uml:Text" name="..\AdminProyecto\Comunicacion\EntrevistasySesiones\BibliotecaHNacozariMinuta20090811.doc" scope="public">
+				<model package="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" tpos="0" ea_localid="73" ea_eleType="element" name="..\AdminProyecto\Comunicacion\EntrevistasySesiones\BibliotecaHNacozariMinuta20090811.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Minuta entrevista 11/08/2009" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-18 21:05:21" modified="2010-09-12 12:06:10" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Communication"/>
+				<links>
+					<NoteLink xmi:id="EAID_1DA72576_0A75_473d_B41F_029EAF19C7C5" start="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014" end="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E" xmi:type="uml:Text" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Comunicacion\Responsabilidades\BibliotecaHNacozariComunicCliente002.doc" scope="public">
+				<model package="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" tpos="0" ea_localid="74" ea_eleType="element" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Comunicacion\Responsabilidades\BibliotecaHNacozariComunicCliente002.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="BibliotecaHNacozariComunicCliente" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 15:51:05" modified="2010-09-22 15:15:28" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Communication"/>
+				<links>
+					<NoteLink xmi:id="EAID_E2F0FBB6_7057_4c82_A371_C349A4C51D5B" start="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E" end="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" xmi:type="uml:Package" name="Configuration" scope="public">
+				<model package2="EAID_1E198A5A_264C_407d_A476_151F98BE9EBA" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="4" ea_localid="31" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Configuración" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 12:59:14" modified="2015-05-06 12:08:34" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="4"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:08:34" lastloaddate="2010-06-16 11:00:23" lastsavedate="2010-06-16 11:00:23"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019" xmi:type="uml:Artifact" name="Control de versiones de elementos de configuración" scope="public">
+				<model package="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" tpos="0" ea_localid="76" ea_eleType="element"/>
+				<properties documentation="Documento para registrar y documentar en forma resumida los cambios a los elementos de configuración." isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-18 21:53:42" modified="2010-06-15 19:52:32" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={5F7253BA-2495-4b13-AE34-9B5B8CDA7BFC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A9EEC80A-CDEC-4cb9-ADA3-FAE706F5A019}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Configuration"/>
+				<Files>
+					<EAFile name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Configuracion\BibliotecaHNacozariCtrlVersiones009.xls" type="Local File" description="Versión actualizada del control de versiones." subject="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019">
+						<Properties filesize="24 k"/>
+					</EAFile>
+				</Files>
+				<links>
+					<NoteLink xmi:id="EAID_21294BC6_4E3D_466a_AEBF_E335CA0E8CA4" start="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3" end="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15" xmi:type="uml:Artifact" name="Plan de manejo de versiones y configuraciones" scope="public">
+				<model package="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" tpos="0" ea_localid="77" ea_eleType="element"/>
+				<properties documentation="Documento para formalizar un método para el manejo de configuraciones y versiones de los entregables. El manejo de configuraciones y versiones (configuration management) es un procedimiento disciplinado para controlar la evolución de la documentación y de los productos del proyecto, y abarca todas las fases, desde la recabación de requisitos y el diseño, hasta la construcción y el mantenimiento. &#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 17:53:23" modified="2009-09-11 17:54:56" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={BEF8BC2B-42EB-4789-9EFC-CF4D2CF66A9D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={4DB58A2F-8869-47df-BAD8-C66F93CCDC15}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Configuration"/>
+				<links>
+					<NoteLink xmi:id="EAID_E2954495_FD22_4e76_B2EF_134D312A6CDB" start="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" end="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3" xmi:type="uml:Text" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariCtrlVersiones009.xls" scope="public">
+				<model package="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" tpos="0" ea_localid="78" ea_eleType="element" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariCtrlVersiones009.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Control de versiones" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-18 21:54:31" modified="2010-09-12 12:13:08" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Configuration"/>
+				<links>
+					<NoteLink xmi:id="EAID_21294BC6_4E3D_466a_AEBF_E335CA0E8CA4" start="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3" end="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" xmi:type="uml:Text" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariPlanConfig004.doc" scope="public">
+				<model package="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" tpos="0" ea_localid="79" ea_eleType="element" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariPlanConfig004.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese Plan manejo config" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:55:02" modified="2010-09-12 12:04:57" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Configuration"/>
+				<links>
+					<NoteLink xmi:id="EAID_E2954495_FD22_4e76_B2EF_134D312A6CDB" start="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" end="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" xmi:type="uml:Package" name="Requirements" scope="public">
+				<model package2="EAID_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="5" ea_localid="32" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Requisitos" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 13:00:18" modified="2015-05-06 12:08:54" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="5"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:08:54" lastloaddate="2010-06-16 11:00:23" lastsavedate="2010-06-16 11:00:23"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A" xmi:type="uml:Artifact" name="Documento de visión y alcances" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="81" ea_eleType="element"/>
+				<properties documentation="Documento donde se definen los problemas (o áreas de oportunidad) que debe resolver el proyecto, su solución; se definen alcances, condiciones y limitante, factores críticos para el éxito; y se nombran a los responsables iniciales.&#xA;" isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:57:52" modified="2009-10-28 13:19:52" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={2DCE2DC9-0FDE-43c6-A30D-36719191460A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={DA14FB61-3358-426f-BC98-41F8DA742D8A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<links>
+					<NoteLink xmi:id="EAID_97EFA417_8702_47ce_8335_78F897D40076" start="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1" end="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_80BE9998_BE37_4998_92BB_6B29551479E9" xmi:type="uml:Artifact" name="Especificación de requisitos" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="82" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 18:10:38" modified="2009-09-11 18:10:52" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={CFDC0F4F-267B-41f8-9A14-213EBC125511}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={80BE9998-BE37-4998-92BB-6B29551479E9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<Files>
+					<EAFile name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariEspecificRequisitos004.docx" type="Local File" subject="EAID_80BE9998_BE37_4998_92BB_6B29551479E9">
+						<Properties filesize="1044 k"/>
+					</EAFile>
+				</Files>
+				<links>
+					<NoteLink xmi:id="EAID_F3EAA81F_DC21_4743_8BF0_6841EF144D17" start="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB" end="EAID_80BE9998_BE37_4998_92BB_6B29551479E9"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_E000F057_34AB_4290_938C_81B30A31EC46" xmi:type="uml:Artifact" name="Matriz de trazabilidad de requisitos" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="83" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 18:20:08" modified="2009-09-11 18:20:21" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={3BC9F22B-B552-4141-BAE7-8F5943D598AC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={E000F057-34AB-4290-938C-81B30A31EC46}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<links>
+					<NoteLink xmi:id="EAID_E818C32B_0452_421d_9ED9_CB37C59CC3C2" start="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4" end="EAID_E000F057_34AB_4290_938C_81B30A31EC46"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_262250ED_279E_4560_9F87_ED2DA14ACB00" xmi:type="uml:Boundary" name="Modificaciones significativas rechazadas" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="84" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:16:53" modified="2009-10-28 13:05:56" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+			</element>
+			<element xmi:idref="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1" xmi:type="uml:Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariVisionyAlcances004.doc" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="85" ea_eleType="element" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariVisionyAlcances004.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese el documento de Visión y alcances" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 17:58:07" modified="2010-09-12 12:10:43" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<links>
+					<NoteLink xmi:id="EAID_97EFA417_8702_47ce_8335_78F897D40076" start="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1" end="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4" xmi:type="uml:Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariMatrizReqs004.xls" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="86" ea_eleType="element" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariMatrizReqs004.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese matriz de trazabilidad" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:20:33" modified="2010-09-12 12:11:06" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<links>
+					<NoteLink xmi:id="EAID_E818C32B_0452_421d_9ED9_CB37C59CC3C2" start="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4" end="EAID_E000F057_34AB_4290_938C_81B30A31EC46"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_8BDB4925_C4A0_4e4a_A6C2_B2B55240B120" xmi:type="uml:Text" name="..\AdminProyecto\Requisitos\Cambios\BibliotecaHNacozariSolicitudModific20090828.doc" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="87" ea_eleType="element" name="..\AdminProyecto\Requisitos\Cambios\BibliotecaHNacozariSolicitudModific20090828.doc"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Nuevo caso de uso: Reporte de utilización" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:18:13" modified="2010-09-12 12:11:40" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+			</element>
+			<element xmi:idref="EAID_CAED5B57_3CD5_451d_BA54_5DD938B81A58" xmi:type="uml:Boundary" name="Modificaciones significativas aceptadas" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="88" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:16:53" modified="2009-10-28 13:06:08" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+			</element>
+			<element xmi:idref="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB" xmi:type="uml:Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariEspecificRequisitos004.docx" scope="public">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" tpos="0" ea_localid="89" ea_eleType="element" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariEspecificRequisitos004.docx"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese la Especificación de requisitos" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:11:02" modified="2010-09-12 12:10:54" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements"/>
+				<links>
+					<NoteLink xmi:id="EAID_F3EAA81F_DC21_4743_8BF0_6841EF144D17" start="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB" end="EAID_80BE9998_BE37_4998_92BB_6B29551479E9"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901" xmi:type="uml:Package" name="Risk" scope="public">
+				<model package2="EAID_5F6076AC_A6C8_4867_8EDD_5236B9D94901" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="6" ea_localid="33" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Riesgos" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 13:00:30" modified="2015-05-06 12:09:06" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="6"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:09:06" lastloaddate="2010-06-16 11:00:23" lastsavedate="2010-06-16 11:00:23"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E" xmi:type="uml:Artifact" name="Análisis de riesgos" scope="public">
+				<model package="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901" tpos="0" ea_localid="91" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 18:24:09" modified="2009-09-11 18:24:20" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={E2CCD384-2543-498e-BD8C-A57A1E9812D1}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={E8E37F24-AFAB-4ea4-801E-9A9A1EC03E6E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Risk"/>
+				<links>
+					<NoteLink xmi:id="EAID_62C4E63B_93EF_4ad4_A47B_E7D6B3542217" start="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9" end="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9" xmi:type="uml:Text" name="..\AdminProyecto\Riesgos\BibliotecaHNacozariRiesgos004.xls" scope="public">
+				<model package="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901" tpos="0" ea_localid="92" ea_eleType="element" name="..\AdminProyecto\Riesgos\BibliotecaHNacozariRiesgos004.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese la hoja de análisis de riesgos" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:24:31" modified="2010-09-12 12:12:20" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Risk"/>
+				<links>
+					<NoteLink xmi:id="EAID_62C4E63B_93EF_4ad4_A47B_E7D6B3542217" start="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9" end="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_73E0222B_E645_4c8e_A188_2920CD079336" xmi:type="uml:Package" name="Costs and earned value" scope="public">
+				<model package2="EAID_73E0222B_E645_4c8e_A188_2920CD079336" package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" tpos="7" ea_localid="34" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Costos y valor devengado" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 13:00:39" modified="2015-05-06 12:09:51" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Project management"/>
+				<packageproperties version="001" tpos="7"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2015-05-06 12:09:51" lastloaddate="2010-06-16 11:00:23" lastsavedate="2010-06-16 11:00:23"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5" xmi:type="uml:Artifact" name="Planeación de costos y seguimiento mediante EVM (valor devengado)" scope="public">
+				<model package="EAPK_73E0222B_E645_4c8e_A188_2920CD079336" tpos="0" ea_localid="94" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Artifact" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="Jaime González V." version="004" phase="1.0" created="2009-09-11 18:30:46" modified="2009-09-11 18:32:08" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={86DEC173-698A-4c74-B959-FE55FA2774BD}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0D37ACFB-B531-499b-B868-99B01578E9D5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Costs and earned value"/>
+				<links>
+					<NoteLink xmi:id="EAID_D29DD5CE_CF2B_4820_B978_D532CDEDF36B" start="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" end="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" xmi:type="uml:Text" name="..\AdminProyecto\Seguimiento\BibliotecaHNacozariValorDevengado004.xls" scope="public">
+				<model package="EAPK_73E0222B_E645_4c8e_A188_2920CD079336" tpos="0" ea_localid="95" ea_eleType="element" name="..\AdminProyecto\Seguimiento\BibliotecaHNacozariValorDevengado004.xls"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Consúltese la hoja con la planeación de costos y EVM" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-09-11 18:31:26" modified="2010-09-12 12:10:18" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="LinkOpen=open;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Costs and earned value"/>
+				<links>
+					<NoteLink xmi:id="EAID_D29DD5CE_CF2B_4820_B978_D532CDEDF36B" start="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" end="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5"/>
+				</links>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_DDC3CC49_8B00_4b7e_8626_D6CED4507754">
+				<source xmi:idref="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F">
+					<model ea_localid="57" type="Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariAuxEstimacion004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9">
+					<model ea_localid="45" type="Artifact" name="Auxiliar de estimación DELPHI y Pert"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="3"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_892FAE40_292F_45f4_AF00_237013516CA3">
+				<source xmi:idref="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951">
+					<model ea_localid="60" type="Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.RTF"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90">
+					<model ea_localid="46" type="Artifact" name="Documento generado con EA: Estimación Use Case Points"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="4"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_B76F477F_D6FB_43ab_B35F_1BB57EA6A8F8">
+				<source xmi:idref="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB">
+					<model ea_localid="59" type="Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionFP004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80">
+					<model ea_localid="47" type="Artifact" name="Hoja de cálculo estimación Function Points"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="5"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_8EBA879D_7ADE_40c2_A690_6234991BAAE2">
+				<source xmi:idref="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF">
+					<model ea_localid="54" type="Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariEstimacionUCP004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995">
+					<model ea_localid="48" type="Artifact" name="Hoja de cálculo estimación Use Case Points"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="6"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_52170CD5_3F94_4faa_A6B1_8062D4482E67">
+				<source xmi:idref="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C">
+					<model ea_localid="61" type="Text" name="..\AdminProyecto\Plan\EstimacionyMetricas\BibliotecaHNacozariPlanDeMetricas002.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_A3507794_24E8_4db6_A243_5C862F8289DD">
+					<model ea_localid="49" type="Artifact" name="Plan de mediciones"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="7"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_B3B7F1D8_2413_46f7_813E_49B9F2B2B097">
+				<source xmi:idref="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946">
+					<model ea_localid="56" type="Text" name="..\AdminProyecto\Plan\ProcuracionyLogistica\BibliotecaHNacozariPlanProcyLogistica004.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_45B9586A_5BAD_416c_824B_462AFBC98432">
+					<model ea_localid="50" type="Artifact" name="Plan de procura y logística"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="8"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_87DDA7E2_EF2F_4af8_A578_E37A41596073">
+				<source xmi:idref="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183">
+					<model ea_localid="55" type="Text" name="..\AdminProyecto\Plan\PlanIntegrado\BibliotecaHNacozariPlanProyecto004.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339">
+					<model ea_localid="51" type="Artifact" name="Plan integrado del proyecto"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="9"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_33B8F9A9_5264_41d4_AF9D_41BEC90EFA47">
+				<source xmi:idref="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA">
+					<model ea_localid="62" type="Text" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Plan\WBSyGantt\BibliotecaHNacozariPlan006.pod"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_09CB0B0E_4060_472a_B69F_B46B38055901">
+					<model ea_localid="52" type="Artifact" name="WBS y gráfica de Gantt"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="10"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_47CC6F64_6D13_4cf2_887F_E99FC176A77D">
+				<source xmi:idref="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC">
+					<model ea_localid="67" type="Text" name="..\AdminProyecto\QA\Auditorias\BibliotecaHNacozariNoConformidades20090814.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362">
+					<model ea_localid="64" type="Artifact" name="Auditoría QA: no confomidades y observaciones"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="11"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_CB1FC484_0A04_48e0_8881_F4EBDBEDF92E">
+				<source xmi:idref="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60">
+					<model ea_localid="68" type="Text" name="..\Mantenimiento\BibliotecaHNacozariMedicionCalidadyBitcraMantenim.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42">
+					<model ea_localid="65" type="Artifact" name="Bitácora de SCOs y gráfica de MTBF"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="12"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_96F8A4F5_AF2F_4bda_BCF3_5EAFDCDCBDE7">
+				<source xmi:idref="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9">
+					<model ea_localid="69" type="Text" name="..\AdminProyecto\QA\PlanCalidad\BibliotecaHNacozariPlanCalidad004.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746">
+					<model ea_localid="66" type="Artifact" name="Plan de aseguramiento y control de calidad"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="13"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_1DA72576_0A75_473d_B41F_029EAF19C7C5">
+				<source xmi:idref="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014">
+					<model ea_localid="73" type="Text" name="..\AdminProyecto\Comunicacion\EntrevistasySesiones\BibliotecaHNacozariMinuta20090811.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30">
+					<model ea_localid="71" type="Artifact" name="Minuta de la entrevista 11/08/2009"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="14"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E2F0FBB6_7057_4c82_A371_C349A4C51D5B">
+				<source xmi:idref="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E">
+					<model ea_localid="74" type="Text" name="C:\Proy\0005BibliotecaHNacozari\AdminProyecto\Comunicacion\Responsabilidades\BibliotecaHNacozariComunicCliente002.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0">
+					<model ea_localid="72" type="Artifact" name="Responsabilidades de comunicación con el cliente"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="15"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_21294BC6_4E3D_466a_AEBF_E335CA0E8CA4">
+				<source xmi:idref="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3">
+					<model ea_localid="78" type="Text" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariCtrlVersiones009.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019">
+					<model ea_localid="76" type="Artifact" name="Control de versiones de elementos de configuración"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="16"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E2954495_FD22_4e76_B2EF_134D312A6CDB">
+				<source xmi:idref="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542">
+					<model ea_localid="79" type="Text" name="..\AdminProyecto\Configuracion\BibliotecaHNacozariPlanConfig004.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15">
+					<model ea_localid="77" type="Artifact" name="Plan de manejo de versiones y configuraciones"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="17"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_97EFA417_8702_47ce_8335_78F897D40076">
+				<source xmi:idref="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1">
+					<model ea_localid="85" type="Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariVisionyAlcances004.doc"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A">
+					<model ea_localid="81" type="Artifact" name="Documento de visión y alcances"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="18"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_F3EAA81F_DC21_4743_8BF0_6841EF144D17">
+				<source xmi:idref="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB">
+					<model ea_localid="89" type="Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariEspecificRequisitos004.docx"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_80BE9998_BE37_4998_92BB_6B29551479E9">
+					<model ea_localid="82" type="Artifact" name="Especificación de requisitos"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="19"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E818C32B_0452_421d_9ED9_CB37C59CC3C2">
+				<source xmi:idref="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4">
+					<model ea_localid="86" type="Text" name="..\AdminProyecto\Requisitos\VisionyAlcances\BibliotecaHNacozariMatrizReqs004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_E000F057_34AB_4290_938C_81B30A31EC46">
+					<model ea_localid="83" type="Artifact" name="Matriz de trazabilidad de requisitos"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="20"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_62C4E63B_93EF_4ad4_A47B_E7D6B3542217">
+				<source xmi:idref="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9">
+					<model ea_localid="92" type="Text" name="..\AdminProyecto\Riesgos\BibliotecaHNacozariRiesgos004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E">
+					<model ea_localid="91" type="Artifact" name="Análisis de riesgos"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="21"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_D29DD5CE_CF2B_4820_B978_D532CDEDF36B">
+				<source xmi:idref="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62">
+					<model ea_localid="95" type="Text" name="..\AdminProyecto\Seguimiento\BibliotecaHNacozariValorDevengado004.xls"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5">
+					<model ea_localid="94" type="Artifact" name="Planeación de costos y seguimiento mediante EVM (valor devengado)"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="22"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams>
+			<diagram xmi:id="EAID_6A62CA3A_53F9_4d27_ADDF_8DE957214B84">
+				<model package="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD" localID="16" owner="EAPK_6AB8B536_258A_4f51_A830_228A2824F7CD"/>
+				<properties name="Project management documentation" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 00:00:00" modified="2015-05-06 11:17:24"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=3D7FA770;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=76;Top=230;Right=343;Bottom=310;" subject="EAID_0B234114_EFBF_412c_BA84_593A995B8085" seqno="1" style="DUID=5CEDD1A8;"/>
+					<element geometry="Left=426;Top=342;Right=687;Bottom=422;" subject="EAID_5F6076AC_A6C8_4867_8EDD_5236B9D94901" seqno="2" style="DUID=2BEC2FC0;"/>
+					<element geometry="Left=425;Top=228;Right=686;Bottom=308;" subject="EAID_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" seqno="3" style="DUID=7DAA74F5;"/>
+					<element geometry="Left=214;Top=36;Right=528;Bottom=193;" subject="EAID_E4056B6D_DBE8_4f7d_815F_D793B57575A5" seqno="4" style="DUID=B2F15EEA;"/>
+					<element geometry="Left=80;Top=439;Right=363;Bottom=519;" subject="EAID_1E198A5A_264C_407d_A476_151F98BE9EBA" seqno="5" style="DUID=9976D1B3;"/>
+					<element geometry="Left=428;Top=450;Right=798;Bottom=530;" subject="EAID_73E0222B_E645_4c8e_A188_2920CD079336" seqno="6" style="DUID=A9E7C075;"/>
+					<element geometry="Left=78;Top=325;Right=356;Bottom=405;" subject="EAID_C83DAB36_EF81_49f3_B03D_B14836105D5B" seqno="7" style="DUID=B3F4D101;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_E6D11179_6FCB_46e4_B66B_6D6366AA6B5B">
+				<model package="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5" localID="17" owner="EAPK_E4056B6D_DBE8_4f7d_815F_D793B57575A5"/>
+				<properties name="Plan" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 12:59:34" modified="2010-09-12 12:09:58"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=648;Top=374;Right=888;Bottom=400;" subject="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" seqno="1" style="HideIcon=0;DUID=4359E4BD;NSL=0;"/>
+					<element geometry="Left=470;Top=397;Right=594;Bottom=467;" subject="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746" seqno="2" style="DUID=FDD92F9B;NSL=0;"/>
+					<element geometry="Left=427;Top=135;Right=577;Bottom=151;" subject="EAID_D2314BFC_D74A_4b10_9702_4762631FA15C" seqno="3" style="DUID=BCCB09EA;HideIcon=0;"/>
+					<element geometry="Left=279;Top=150;Right=403;Bottom=200;" subject="EAID_A3507794_24E8_4db6_A243_5C862F8289DD" seqno="4" style="DUID=EE5D395A;"/>
+					<element geometry="Left=481;Top=497;Right=767;Bottom=520;" subject="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" seqno="5" style="HideIcon=0;DUID=621D14E8;NSL=0;"/>
+					<element geometry="Left=271;Top=496;Right=440;Bottom=569;" subject="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5" seqno="6" style="DUID=2DAB3B66;NSL=0;"/>
+					<element geometry="Left=35;Top=52;Right=205;Bottom=142;" subject="EAID_041B140B_210C_4085_BEA3_26EF82FA0034" seqno="7" style="DUID=40E7AA9D;HideIcon=0;font=Arial;bold=0;italic=0;ul=0;charset=0;pitch=34;fontsz=100;"/>
+					<element geometry="Left=639;Top=292;Right=789;Bottom=312;" subject="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" seqno="8" style="HideIcon=0;DUID=B1B0BBB1;NSL=0;"/>
+					<element geometry="Left=471;Top=309;Right=595;Bottom=369;" subject="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15" seqno="9" style="DUID=E5C8EF26;NSL=0;"/>
+					<element geometry="Left=637;Top=149;Right=820;Bottom=171;" subject="EAID_F14C5326_2CC1_4132_914E_FC6F48F18DDA" seqno="10" style="DUID=E8AA3DC5;HideIcon=0;"/>
+					<element geometry="Left=471;Top=166;Right=595;Bottom=216;" subject="EAID_09CB0B0E_4060_472a_B69F_B46B38055901" seqno="11" style="DUID=81A16C08;"/>
+					<element geometry="Left=633;Top=229;Right=783;Bottom=249;" subject="EAID_67AFE51E_06A4_40f0_8ABD_6893E76F2946" seqno="12" style="DUID=89385565;HideIcon=0;"/>
+					<element geometry="Left=471;Top=235;Right=595;Bottom=285;" subject="EAID_45B9586A_5BAD_416c_824B_462AFBC98432" seqno="13" style="DUID=EE5D395A;"/>
+					<element geometry="Left=507;Top=44;Right=657;Bottom=64;" subject="EAID_260A5224_97D0_4880_BE31_B6E8BCCAD183" seqno="14" style="DUID=4CAD9284;HideIcon=0;"/>
+					<element geometry="Left=240;Top=49;Right=445;Bottom=118;" subject="EAID_B20E0F88_54A2_42d3_8C76_3CB2DCF60339" seqno="15" style="DUID=53EB4F00;"/>
+					<element geometry="Left=238;Top=443;Right=388;Bottom=463;" subject="EAID_CAF96F2A_E182_4624_8645_EE72A3E489DB" seqno="16" style="DUID=76ED1A00;HideIcon=0;"/>
+					<element geometry="Left=235;Top=374;Right=385;Bottom=394;" subject="EAID_CD4FC14B_34E1_4c52_B8F1_F6E86F499951" seqno="17" style="DUID=F9207ADE;HideIcon=0;"/>
+					<element geometry="Left=43;Top=379;Right=196;Bottom=429;" subject="EAID_2B5FA84F_6924_4d56_BD23_D153FD845C90" seqno="18" style="DUID=D87FE9F0;"/>
+					<element geometry="Left=42;Top=450;Right=195;Bottom=500;" subject="EAID_AF1771BA_C437_4590_9408_6B6CF9FEFB80" seqno="19" style="DUID=3FA8F46D;"/>
+					<element geometry="Left=234;Top=285;Right=385;Bottom=308;" subject="EAID_2022B665_52A7_4e7d_8828_11E6582EF7BF" seqno="20" style="DUID=8E7118D1;HideIcon=0;"/>
+					<element geometry="Left=43;Top=308;Right=196;Bottom=358;" subject="EAID_1A03AD10_7BBA_40f4_8DBC_EB16D0C49995" seqno="21" style="DUID=C5E78F3A;"/>
+					<element geometry="Left=41;Top=237;Right=194;Bottom=287;" subject="EAID_5F8630B1_C357_4188_8C6F_63FC833E07F9" seqno="22" style="DUID=B0572586;"/>
+					<element geometry="Left=235;Top=228;Right=444;Bottom=253;" subject="EAID_94EAC3E2_8B6C_469c_8EDE_3890CBF34D5F" seqno="23" style="DUID=C85F60A2;HideIcon=0;"/>
+					<element geometry="Left=22;Top=24;Right=212;Bottom=155;" subject="EAID_9D3FE687_1CA6_421e_9A2E_C10C796CCB40" seqno="24" style="DUID=EFC67772;font=Arial;fontsz=100;bold=0;italic=0;ul=0;charset=0;pitch=34;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D29DD5CE_CF2B_4820_B978_D532CDEDF36B" style="Mode=3;EOID=2DAB3B66;SOID=621D14E8;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-30;SY=3;EX=1;EY=-6;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E2954495_FD22_4e76_B2EF_134D312A6CDB" style="Mode=3;EOID=E5C8EF26;SOID=B1B0BBB1;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-120;SY=-4;EX=1;EY=7;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_96F8A4F5_AF2F_4bda_BCF3_5EAFDCDCBDE7" style="Mode=3;EOID=FDD92F9B;SOID=4359E4BD;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-71;SY=1;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_33B8F9A9_5264_41d4_AF9D_41BEC90EFA47" style="Mode=3;EOID=81A16C08;SOID=E8AA3DC5;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_87DDA7E2_EF2F_4af8_A578_E37A41596073" style="Mode=3;EOID=53EB4F00;SOID=4CAD9284;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=1;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B3B7F1D8_2413_46f7_813E_49B9F2B2B097" style="Mode=3;EOID=EE5D395A;SOID=89385565;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-61;SY=-7;EX=61;EY=13;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_52170CD5_3F94_4faa_A6B1_8062D4482E67" style="Mode=3;EOID=EE5D395A;SOID=BCCB09EA;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-7;EX=76;EY=16;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8EBA879D_7ADE_40c2_A690_6234991BAAE2" style="Mode=3;EOID=C5E78F3A;SOID=8E7118D1;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-4;EX=1;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B76F477F_D6FB_43ab_B35F_1BB57EA6A8F8" style="Mode=3;EOID=3FA8F46D;SOID=76ED1A00;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-8;EX=76;EY=-1;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_892FAE40_292F_45f4_AF00_237013516CA3" style="Mode=3;EOID=D87FE9F0;SOID=F9207ADE;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-103;SY=4;EX=76;EY=14;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DDC3CC49_8B00_4b7e_8626_D6CED4507754" style="Mode=3;EOID=B0572586;SOID=C85F60A2;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_6B421CC1_0FFA_4918_BA1F_8B60D88466EB">
+				<model package="EAPK_0B234114_EFBF_412c_BA84_593A995B8085" localID="18" owner="EAPK_0B234114_EFBF_412c_BA84_593A995B8085"/>
+				<properties name="Aseguramiento de calidad" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 12:59:54" modified="2010-09-12 12:07:29"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=363;Top=86;Right=603;Bottom=112;" subject="EAID_D834E3B9_6709_4b95_9B34_65D334F3A0F9" seqno="1" style="DUID=D8C3D5CF;HideIcon=0;"/>
+					<element geometry="Left=98;Top=99;Right=306;Bottom=144;" subject="EAID_CBF4C63A_1BFF_470c_A67A_F6A67E655746" seqno="2" style="DUID=B3E58232;"/>
+					<element geometry="Left=363;Top=168;Right=569;Bottom=191;" subject="EAID_3B87324D_DBA8_4023_B0CC_C380977012DC" seqno="3" style="DUID=9614CA81;HideIcon=0;"/>
+					<element geometry="Left=98;Top=178;Right=306;Bottom=220;" subject="EAID_CF95BF32_F19C_489d_8DB6_94F245B98362" seqno="4" style="DUID=84583861;"/>
+					<element geometry="Left=363;Top=246;Right=679;Bottom=265;" subject="EAID_AD78DB96_6066_4f3c_8AD9_080C47B72A60" seqno="5" style="DUID=37FFF2E2;HideIcon=0;"/>
+					<element geometry="Left=98;Top=263;Right=306;Bottom=313;" subject="EAID_F863941F_0E0C_4ae5_85F8_88AEE65B0C42" seqno="6" style="DUID=CA5811EC;"/>
+					<element geometry="SX=-120;SY=-4;EX=101;EY=7;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_96F8A4F5_AF2F_4bda_BCF3_5EAFDCDCBDE7" style="Mode=3;EOID=B3E58232;SOID=D8C3D5CF;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-4;EX=0;EY=-2;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CB1FC484_0A04_48e0_8881_F4EBDBEDF92E" style="Mode=3;EOID=CA5811EC;SOID=37FFF2E2;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-102;SY=-1;EX=44;EY=-1;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_47CC6F64_6D13_4cf2_887F_E99FC176A77D" style="Mode=3;EOID=84583861;SOID=9614CA81;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_0E7F164E_D492_4539_92E2_EB22C80D79A2">
+				<model package="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B" localID="19" owner="EAPK_C83DAB36_EF81_49f3_B03D_B14836105D5B"/>
+				<properties name="Comunicación" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 12:59:01" modified="2009-09-18 21:09:33"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=349;Top=107;Right=499;Bottom=127;" subject="EAID_BC96AF42_5CB2_4fea_B26E_849121F26014" seqno="1" style="DUID=A75DBCDE;HideIcon=0;"/>
+					<element geometry="Left=189;Top=111;Right=308;Bottom=171;" subject="EAID_CAE9D37A_A3FD_4d5e_B4AB_32DE20604F30" seqno="2" style="DUID=ABCC2039;"/>
+					<element geometry="Left=354;Top=205;Right=578;Bottom=231;" subject="EAID_EFE8A13E_AA70_4283_B05C_9435F05D2C3E" seqno="3" style="DUID=80873E6F;HideIcon=0;"/>
+					<element geometry="Left=189;Top=204;Right=308;Bottom=264;" subject="EAID_4CE8BE4E_5004_40e8_8BFA_AA0D7CFB88B0" seqno="4" style="DUID=ABCC2039;"/>
+					<element geometry="SX=-111;SY=-9;EX=59;EY=-4;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E2F0FBB6_7057_4c82_A371_C349A4C51D5B" style="Mode=3;EOID=ABCC2039;SOID=80873E6F;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-9;EX=59;EY=1;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1DA72576_0A75_473d_B41F_029EAF19C7C5" style="Mode=3;EOID=ABCC2039;SOID=A75DBCDE;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_16D93D16_6E8A_49de_AFB2_AA84A80D5933">
+				<model package="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA" localID="20" owner="EAPK_1E198A5A_264C_407d_A476_151F98BE9EBA"/>
+				<properties name="Configuración" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 12:59:16" modified="2009-09-18 22:46:27"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=336;Top=211;Right=486;Bottom=231;" subject="EAID_10B29CC2_79E7_4c71_B1B7_FBBF3B67CCD3" seqno="1" style="DUID=56BF65E8;HideIcon=0;"/>
+					<element geometry="Left=78;Top=214;Right=268;Bottom=274;" subject="EAID_A9EEC80A_CDEC_4cb9_ADA3_FAE706F5A019" seqno="2" style="DUID=8ED1F459;"/>
+					<element geometry="Left=323;Top=90;Right=612;Bottom=115;" subject="EAID_F7CBA9DC_44DC_4d15_A6A6_C42D5A4DA542" seqno="3" style="DUID=274B4315;HideIcon=0;"/>
+					<element geometry="Left=76;Top=115;Right=271;Bottom=175;" subject="EAID_4DB58A2F_8869_47df_BAD8_C66F93CCDC15" seqno="4" style="DUID=B6F24EE6;"/>
+					<element geometry="SX=-30;SY=3;EX=1;EY=-6;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E2954495_FD22_4e76_B2EF_134D312A6CDB" style="Mode=3;EOID=B6F24EE6;SOID=274B4315;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-74;SY=-9;EX=94;EY=-1;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_21294BC6_4E3D_466a_AEBF_E335CA0E8CA4" style="Mode=3;EOID=8ED1F459;SOID=56BF65E8;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_10589C12_0C0F_4517_83BD_1F3999745F5A">
+				<model package="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00" localID="21" owner="EAPK_93556954_4A2B_42eb_BEBF_D85D8D3B2E00"/>
+				<properties name="Requisitos" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 13:00:21" modified="2010-04-09 21:02:35"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties ea_hlinksclassified="{041B140B-210C-4085-BEA3-26EF82FA0034}"/>
+				<elements>
+					<element geometry="Left=297;Top=218;Right=482;Bottom=238;" subject="EAID_4410181A_8DFD_40de_B250_C2AE037D9EA4" seqno="1" style="DUID=0BB6F187;HideIcon=0;"/>
+					<element geometry="Left=71;Top=230;Right=245;Bottom=280;" subject="EAID_E000F057_34AB_4290_938C_81B30A31EC46" seqno="2" style="DUID=78D040B9;"/>
+					<element geometry="Left=445;Top=371;Right=669;Bottom=391;" subject="EAID_8BDB4925_C4A0_4e4a_A6C2_B2B55240B120" seqno="3" style="DUID=7E7A1B50;HideIcon=0;"/>
+					<element geometry="Left=417;Top=336;Right=725;Bottom=526;" subject="EAID_262250ED_279E_4560_9F87_ED2DA14ACB00" seqno="4" style="DUID=7199031F;"/>
+					<element geometry="Left=297;Top=129;Right=525;Bottom=149;" subject="EAID_DC5C533E_232B_4c9f_ADF5_48E97E40B0FB" seqno="5" style="DUID=0DF7370B;HideIcon=0;"/>
+					<element geometry="Left=70;Top=152;Right=244;Bottom=202;" subject="EAID_80BE9998_BE37_4998_92BB_6B29551479E9" seqno="6" style="DUID=B2610292;"/>
+					<element geometry="Left=294;Top=41;Right=528;Bottom=57;" subject="EAID_3837D8D7_BD7B_405f_9F5B_BE736214A7D1" seqno="7" style="DUID=76C511C4;HideIcon=0;"/>
+					<element geometry="Left=68;Top=74;Right=242;Bottom=124;" subject="EAID_DA14FB61_3358_426f_BC98_41F8DA742D8A" seqno="8" style="DUID=090311F4;"/>
+					<element geometry="Left=97;Top=336;Right=405;Bottom=526;" subject="EAID_CAED5B57_3CD5_451d_BA54_5DD938B81A58" seqno="9" style="DUID=7199031F;"/>
+					<element geometry="SX=0;SY=0;EX=84;EY=-18;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E818C32B_0452_421d_9ED9_CB37C59CC3C2" style="Mode=3;EOID=78D040B9;SOID=0BB6F187;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=-26;SY=-9;EX=86;EY=-7;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F3EAA81F_DC21_4743_8BF0_6841EF144D17" style="Mode=3;EOID=B2610292;SOID=0DF7370B;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=86;EY=1;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_97EFA417_8702_47ce_8335_78F897D40076" style="Mode=3;EOID=090311F4;SOID=76C511C4;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_839D38C0_28FA_45ee_BCE2_91644A92A2A3">
+				<model package="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901" localID="22" owner="EAPK_5F6076AC_A6C8_4867_8EDD_5236B9D94901"/>
+				<properties name="Riesgos" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 13:00:32" modified="2010-09-12 12:12:31"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=317;Top=53;Right=544;Bottom=77;" subject="EAID_2AD68298_A9E2_408c_9A94_4CD4E1D23BE9" seqno="1" style="DUID=AA7E9325;HideIcon=0;"/>
+					<element geometry="Left=77;Top=78;Right=256;Bottom=128;" subject="EAID_E8E37F24_AFAB_4ea4_801E_9A9A1EC03E6E" seqno="2" style="DUID=ED068773;"/>
+					<element geometry="SX=0;SY=0;EX=89;EY=1;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_62C4E63B_93EF_4ad4_A47B_E7D6B3542217" style="Mode=3;EOID=ED068773;SOID=AA7E9325;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_D52D9DE5_0AEF_4416_BC38_FFA0E84E6AF9">
+				<model package="EAPK_73E0222B_E645_4c8e_A188_2920CD079336" localID="23" owner="EAPK_73E0222B_E645_4c8e_A188_2920CD079336"/>
+				<properties name="Costos y seguimiento" type="Package"/>
+				<project author="Jaime González V." version="001" created="2009-03-23 13:00:41" modified="2010-05-06 17:00:23"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=306;Top=62;Right=596;Bottom=84;" subject="EAID_F04ADE5B_2F6B_45ec_9FA9_3FB6DCB07B62" seqno="1" style="DUID=7A9E5719;HideIcon=0;"/>
+					<element geometry="Left=77;Top=84;Right=246;Bottom=157;" subject="EAID_0D37ACFB_B531_499b_B868_99B01578E9D5" seqno="2" style="DUID=13220F93;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D29DD5CE_CF2B_4820_B978_D532CDEDF36B" style="Mode=3;EOID=13220F93;SOID=7A9E5719;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

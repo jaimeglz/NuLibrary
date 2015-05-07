@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" name="Requirements" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" name="Requisitos funcionales" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" name="Reglas de negocios" visibility="public">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8" name="Alumnos con adeudos pierden el derecho a pedir libros prestados" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC" name="Maximo de tiempo y de cantidad de libros para préstamos" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5" name="Sanción por entrega extemporánea" visibility="public">
+						<nestedClassifier xmi:type="uml:Class" xmi:id="EAID_731E93AB_81A0_4383_9AD2_94091037D732" name="Cada vez que se retrase la entrega, reducir en uno el número de ejemplares a los cuales tiene derecho" visibility="public">
+							<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dstE56110_AA7E_4f43_9109_5ADF4B1EC51B" visibility="public" association="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+								<type xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+							</ownedAttribute>
+						</nestedClassifier>
+						<nestedClassifier xmi:type="uml:Class" xmi:id="EAID_034FAD42_177F_4595_8169_3862E6850475" name="Al entregar los libros pendientes se cancela el 50% del cargo." visibility="public">
+							<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dstAE7669_BA61_40a2_BB55_79C4140A9F80" visibility="public" association="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+								<type xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+							</ownedAttribute>
+						</nestedClassifier>
+					</packagedElement>
+					<packagedElement xmi:type="uml:Association" xmi:id="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" visibility="public">
+						<memberEnd xmi:idref="EAID_dstAE7669_BA61_40a2_BB55_79C4140A9F80"/>
+						<memberEnd xmi:idref="EAID_srcAE7669_BA61_40a2_BB55_79C4140A9F80"/>
+						<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcAE7669_BA61_40a2_BB55_79C4140A9F80" visibility="public" association="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="composite">
+							<type xmi:idref="EAID_034FAD42_177F_4595_8169_3862E6850475"/>
+						</ownedEnd>
+					</packagedElement>
+					<packagedElement xmi:type="uml:Association" xmi:id="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" visibility="public">
+						<memberEnd xmi:idref="EAID_dstE56110_AA7E_4f43_9109_5ADF4B1EC51B"/>
+						<memberEnd xmi:idref="EAID_srcE56110_AA7E_4f43_9109_5ADF4B1EC51B"/>
+						<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcE56110_AA7E_4f43_9109_5ADF4B1EC51B" visibility="public" association="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="composite">
+							<type xmi:idref="EAID_731E93AB_81A0_4383_9AD2_94091037D732"/>
+						</ownedEnd>
+					</packagedElement>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" name="Características" visibility="public">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9" name="El usuario podrá solicitar el ejemplar mediante título, autor o ISBN" visibility="public"/>
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374" name="Lectura de matrícula o num. de nómina mediante código de barras" visibility="public"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F" name="Interfaz de usuario" visibility="public">
+					<ownedComment xmi:type="uml:Comment" xmi:id="EAID_B2843894_3EB2_4980_8E84_81BA4D53380D" body="The User Interface package contains high level descriptions of end-user visible screens and forms which are required to support the proposed system. "/>
+					<packagedElement xmi:type="uml:Package" xmi:id="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" name="Consulta de ficha bibliográfica" visibility="public">
+						<packagedElement xmi:type="uml:Class" xmi:id="EAID_5BC6CB78_FE25_432d_94F7_1CB4719C514B" visibility="public"/>
+						<packagedElement xmi:type="uml:Class" xmi:id="EAID_6E57F92C_C155_48fd_9325_9B0478DD237E" visibility="public"/>
+					</packagedElement>
+				</packagedElement>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" name="Requisitos no funcionales" visibility="public">
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951" name="El tiempo de respuesta normal deberá ser menor a 5 segundos" visibility="public"/>
+				<packagedElement xmi:type="uml:Class" xmi:id="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE" name="La ficha bibliográfica deberá poder consultarse con MS Explorer y Mozilla Firefox" visibility="public"/>
+			</packagedElement>
+		</packagedElement>
+		<thecustomprofile:Functional base_Class="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8"/>
+		<thecustomprofile:Functional base_Class="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC"/>
+		<thecustomprofile:Functional base_Class="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+		<thecustomprofile:Functional base_Class="EAID_731E93AB_81A0_4383_9AD2_94091037D732"/>
+		<thecustomprofile:Functional base_Class="EAID_034FAD42_177F_4595_8169_3862E6850475"/>
+		<thecustomprofile:Functional base_Class="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9"/>
+		<thecustomprofile:Functional base_Class="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374"/>
+		<thecustomprofile:Functional base_Class="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951"/>
+		<thecustomprofile:Performance base_Class="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951"/>
+		<thecustomprofile:Functional base_Class="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE"/>
+		<thecustomprofile:Display base_Class="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" xmi:type="uml:Package" name="Requirements" scope="public">
+				<model package2="EAID_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" package="EAPK_E61BCCAA_FF14_46fc_8126_2606D88239F0" tpos="4" ea_localid="54" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="016" phase="1.0" created="2008-07-03 12:15:57" modified="2015-05-06 11:09:49" complexity="1" status="Proposed"/>
+				<code/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="NuLibrary"/>
+				<packageproperties version="016" owner="Jaime González" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="4"/>
+				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\XMLScripts\Requirements.xml"/>
+				<times created="2005-11-19 09:02:21" modified="2015-05-06 11:56:39" lastloaddate="2010-10-12 16:49:31" lastsavedate="2015-05-07 12:42:49"/>
+				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;Recurse=1;"/>
+			</element>
+			<element xmi:idref="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" xmi:type="uml:Package" name="Requisitos funcionales" scope="public">
+				<model package2="EAID_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" tpos="1" ea_localid="55" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 08:57:37" modified="2009-09-11 18:36:11" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements" eventflags="LNK=ab31;"/>
+				<packageproperties version="1.0" tpos="1"/>
+				<paths/>
+				<times created="2005-11-19 09:02:21" modified="2005-11-19 09:02:21" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" xmi:type="uml:Package" name="Reglas de negocios" scope="public">
+				<model package2="EAID_A016513D_46D9_4111_B471_65D1B59FDEFC" package="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" tpos="1" ea_localid="56" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 09:23:46" modified="2008-07-03 14:49:14" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<packageproperties version="1.0" tpos="1"/>
+				<paths/>
+				<times created="2005-11-19 00:00:00" modified="2005-11-19 00:00:00" lastloaddate="2005-11-19 09:28:59" lastsavedate="2005-11-19 09:28:59"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8" xmi:type="uml:Requirement" name="Alumnos con adeudos pierden el derecho a pedir libros prestados" scope="public">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" tpos="0" ea_localid="304" ea_eleType="element"/>
+				<properties documentation="Los alumnos que tengan adeudos con  Tesorería pierden el derecho a pedir libros prestados." isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project version="1.0" phase="1.0" created="2005-11-20 08:19:48" modified="2010-07-16 10:47:44" complexity="1" status="Mandatory" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={73C0FCD9-5449-43a4-93C9-21712DF65A74}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={5567F40E-8A45-4727-B062-3E938CDC68E8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Reglas de negocios"/>
+				<links>
+					<Realisation xmi:id="EAID_E964815A_9B4B_4989_A57E_A71F9A4338EE" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC" xmi:type="uml:Requirement" name="Maximo de tiempo y de cantidad de libros para préstamos" scope="public">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" tpos="0" ea_localid="305" ea_eleType="element"/>
+				<properties documentation="Los alumnos de nivel licenciatura podrán pedir hasta 5 libros por un máximo de 5 días cada uno. El personal docente y los alumnos de posgrado podrán pedir hasta 10 libros, por 10 días cada uno. " isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 14:52:32" modified="2010-09-22 09:20:48" complexity="1" status="Mandatory" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={E2AA972C-0F12-426b-9FED-14C7A6B8D7E0}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={C417364D-C16A-47bc-B4FF-66270A4ECCEC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Reglas de negocios"/>
+				<links>
+					<Realisation xmi:id="EAID_4CEED9FD_22ED_478e_B363_C4A8B2CC638F" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5" xmi:type="uml:Requirement" name="Sanción por entrega extemporánea" scope="public">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" tpos="0" ea_localid="306" ea_eleType="element"/>
+				<properties documentation="Los libros entregados fuera de la fecha límite de entrega generan un cargo a la cuenta del alumno. Por cada día de retraso, que debe registrarse en el sistema de tesorería, además de enviar un aviso por correo electrónico a la cuenta del alumno. &#xA;" isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 14:56:03" modified="2009-10-01 12:34:13" complexity="1" status="Mandatory" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={20223F42-23B8-4d9f-B294-1C12C748B761}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={DD33C4DB-F494-449a-803D-C396DA6546F5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Reglas de negocios"/>
+				<links>
+					<Aggregation xmi:id="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" start="EAID_034FAD42_177F_4595_8169_3862E6850475" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+					<Realisation xmi:id="EAID_BF0675D6_29F8_4776_A08C_59F92762DF7C" start="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+					<Aggregation xmi:id="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" start="EAID_731E93AB_81A0_4383_9AD2_94091037D732" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_731E93AB_81A0_4383_9AD2_94091037D732" xmi:type="uml:Requirement" name="Cada vez que se retrase la entrega, reducir en uno el número de ejemplares a los cuales tiene derecho" scope="public">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" owner="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5" tpos="0" ea_localid="308" ea_eleType="element"/>
+				<properties documentation="Cada vez que el alumno se retrasa al entregar un libro se reduce en uno el número de libros a los cuales tiene derecho a sacar al mismo tiempo, durante dos semanas.&#xA;" isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-10-01 11:19:55" modified="2009-10-01 12:33:30" complexity="1" status="Mandatory" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={40E013BD-11D2-4ba1-BF73-042547526653}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={B87ED840-9E29-40a6-8DFC-3B81B7F77607};@ENDSTEREO;$DES;$CLT={731E93AB-81A0-4383-9AD2-94091037D732}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Reglas de negocios"/>
+				<links>
+					<Aggregation xmi:id="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" start="EAID_731E93AB_81A0_4383_9AD2_94091037D732" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+					<Realisation xmi:id="EAID_AABC5B56_AFFE_4d72_A921_02149323B35F" start="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD" end="EAID_731E93AB_81A0_4383_9AD2_94091037D732"/>
+					<Realisation xmi:id="EAID_BD780A6D_9472_4467_A0BE_0F1AEDC07446" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_731E93AB_81A0_4383_9AD2_94091037D732"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_034FAD42_177F_4595_8169_3862E6850475" xmi:type="uml:Requirement" name="Al entregar los libros pendientes se cancela el 50% del cargo." scope="public">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" owner="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5" tpos="0" ea_localid="307" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-10-01 11:19:19" modified="2009-10-01 12:32:54" complexity="1" status="Mandatory" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={C0ED53BE-D6EF-40a3-916C-AA239B22CE61}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={B87ED840-9E29-40a6-8DFC-3B81B7F77607};@ENDSTEREO;$DES;$CLT={034FAD42-177F-4595-8169-3862E6850475}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Reglas de negocios"/>
+				<links>
+					<Aggregation xmi:id="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" start="EAID_034FAD42_177F_4595_8169_3862E6850475" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
+					<Realisation xmi:id="EAID_1687B592_CDE3_4e90_A8F3_875838D2D900" start="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8" end="EAID_034FAD42_177F_4595_8169_3862E6850475"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" xmi:type="uml:Package" name="Características" scope="public">
+				<model package2="EAID_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" package="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" tpos="2" ea_localid="57" ea_eleType="package"/>
+				<properties documentation="The Features package contains &#xA;" isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-20 08:14:40" modified="2010-03-22 14:17:55" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<packageproperties version="1.0" tpos="2"/>
+				<paths/>
+				<times created="2008-07-03 12:15:57" modified="2008-07-03 12:15:57" lastloaddate="2008-07-03 12:15:57" lastsavedate="2008-07-03 12:15:57"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9" xmi:type="uml:Requirement" name="El usuario podrá solicitar el ejemplar mediante título, autor o ISBN" scope="public">
+				<model package="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" tpos="0" ea_localid="310" ea_eleType="element"/>
+				<properties documentation="Los ejemplares podrán ser solicitados al bibliotecario mediante especificar el título de la obra (completo o parcial), el ISBN o el autor.&#xA;" isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-10-29 10:32:57" modified="2009-10-29 10:41:20" complexity="1" status="Proposed" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={269A71CA-6033-4480-91A1-5ADE31FE360E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={D5191EB6-DB3B-4494-BE49-9E32D2DF68B9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Características"/>
+				<links>
+					<Realisation xmi:id="EAID_AB0622AF_DB27_4fa1_85AA_292B432E4F05" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374" xmi:type="uml:Requirement" name="Lectura de matrícula o num. de nómina mediante código de barras" scope="public">
+				<model package="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" tpos="0" ea_localid="311" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Functional"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 14:57:22" modified="2009-03-13 17:42:31" complexity="1" status="Proposed" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={A789B0F7-B14D-4bd3-9AD8-50BAD86CDB73}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={CC984211-E6FC-47e4-851E-DD4E1703F374}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Características"/>
+				<links>
+					<Realisation xmi:id="EAID_1B75D8DE_7796_4ffb_AA33_77298B08EBDF" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374"/>
+					<Realisation xmi:id="EAID_81CF64AA_6FF8_4d85_82B7_B9E0BC19FE23" start="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8" end="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F" xmi:type="uml:Package" name="Interfaz de usuario" scope="public">
+				<model package2="EAID_BC1B7D27_140F_49a5_9491_607611F10C7F" package="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" tpos="3" ea_localid="58" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 09:23:38" modified="2009-09-11 18:36:29" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<packageproperties version="1.0" tpos="3"/>
+				<paths/>
+				<times created="2005-11-19 00:00:00" modified="2005-11-19 00:00:00" lastloaddate="2005-11-19 09:29:00" lastsavedate="2005-11-19 09:29:00"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_B2843894_3EB2_4980_8E84_81BA4D53380D" xmi:type="uml:Note" name="Note" scope="public">
+				<model package="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F" tpos="0" ea_localid="313" ea_eleType="element" name="Note"/>
+				<properties documentation="The User Interface package contains high level descriptions of end-user visible screens and forms which are required to support the proposed system. " isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-20 08:26:05" modified="2006-01-11 09:17:48" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Interfaz de usuario"/>
+			</element>
+			<element xmi:idref="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" xmi:type="uml:Package" name="Consulta de ficha bibliográfica" scope="public">
+				<model package2="EAID_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" package="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F" tpos="0" ea_localid="59" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2009-03-23 12:45:48" modified="2009-03-23 12:45:48" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Interfaz de usuario"/>
+				<packageproperties version="001"/>
+				<paths/>
+				<times created="2009-03-23 00:00:00" modified="2009-03-23 00:00:00" lastloaddate="2010-09-30 20:21:16" lastsavedate="2010-09-30 20:21:16"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_5BC6CB78_FE25_432d_94F7_1CB4719C514B" xmi:type="uml:Boundary" scope="public">
+				<model package="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" tpos="0" ea_localid="315" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Jaime González" version="001" phase="1.0" created="2010-04-16 18:55:43" modified="2010-04-16 18:58:15" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Consulta de ficha bibliográfica"/>
+			</element>
+			<element xmi:idref="EAID_6E57F92C_C155_48fd_9325_9B0478DD237E" xmi:type="uml:Boundary" scope="public">
+				<model package="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" tpos="0" ea_localid="316" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Jaime González" version="001" phase="1.0" created="2010-09-30 19:38:52" modified="2010-09-30 19:38:52" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Consulta de ficha bibliográfica"/>
+			</element>
+			<element xmi:idref="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" xmi:type="uml:Package" name="Requisitos no funcionales" scope="public">
+				<model package2="EAID_67AFB7AD_1543_4c48_98A9_27857D83364C" package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" tpos="2" ea_localid="60" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 08:57:48" modified="2010-07-01 14:35:30" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements" eventflags="LNK=b856;"/>
+				<packageproperties version="1.0" tpos="2"/>
+				<paths/>
+				<times created="2005-11-19 09:02:21" modified="2005-11-19 09:02:21" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951" xmi:type="uml:Requirement" name="El tiempo de respuesta normal deberá ser menor a 5 segundos" scope="public">
+				<model package="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" tpos="0" ea_localid="318" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Performance"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 15:04:55" modified="2010-09-22 09:31:42" complexity="1" status="Proposed" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={CCEB89F6-C49C-4598-91F7-B7E3095BD6E3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Performance;GUID={D5260E76-9509-4c9c-AE11-43858A3C2EC1};@ENDSTEREO;@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={0C54F8B4-E9D1-4b7f-80F9-5CE74A65D951}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Requisitos no funcionales"/>
+				<links>
+					<Realisation xmi:id="EAID_423E0FE1_B38D_470c_B2A2_41790637EA45" start="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657" end="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE" xmi:type="uml:Requirement" name="La ficha bibliográfica deberá poder consultarse con MS Explorer y Mozilla Firefox" scope="public">
+				<model package="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" tpos="0" ea_localid="319" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Requirement" nType="0" scope="public" stereotype="Display"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 15:01:01" modified="2010-09-22 09:31:19" complexity="1" status="Proposed" difficulty="Medium" priority="Medium"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={85698080-B8AE-4519-A69D-02D4E4FBA705}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Display;GUID={51B30510-48F0-42a6-8854-592FFF20C9AB};@ENDSTEREO;@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={787BDCAB-01DD-494f-B15F-FA91C0B53EEE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Requisitos no funcionales"/>
+				<links>
+					<Realisation xmi:id="EAID_ED4601B5_E6AC_49c1_B6E8_18A3B83C1D76" start="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657" end="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE"/>
+				</links>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_E964815A_9B4B_4989_A57E_A71F9A4338EE">
+				<source xmi:idref="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14">
+					<model ea_localid="386" type="UseCase" name="Registrar préstamo de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8">
+					<model ea_localid="304" type="Requirement" name="Alumnos con adeudos pierden el derecho a pedir libros prestados"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="168"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="1" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_4CEED9FD_22ED_478e_B363_C4A8B2CC638F">
+				<source xmi:idref="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14">
+					<model ea_localid="386" type="UseCase" name="Registrar préstamo de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC">
+					<model ea_localid="305" type="Requirement" name="Maximo de tiempo y de cantidad de libros para préstamos"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="171"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="1" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80">
+				<source xmi:idref="EAID_034FAD42_177F_4595_8169_3862E6850475">
+					<model ea_localid="307" type="Requirement" name="Al entregar los libros pendientes se cancela el 50% del cargo."/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5">
+					<model ea_localid="306" type="Requirement" name="Sanción por entrega extemporánea"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="composite" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="161"/>
+				<properties ea_type="Aggregation" subtype="Strong" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BF0675D6_29F8_4776_A08C_59F92762DF7C">
+				<source xmi:idref="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD">
+					<model ea_localid="332" type="UseCase" name="Aviso por entrega extemporánea"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5">
+					<model ea_localid="306" type="Requirement" name="Sanción por entrega extemporánea"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="236"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B">
+				<source xmi:idref="EAID_731E93AB_81A0_4383_9AD2_94091037D732">
+					<model ea_localid="308" type="Requirement" name="Cada vez que se retrase la entrega, reducir en uno el número de ejemplares a los cuales tiene derecho"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5">
+					<model ea_localid="306" type="Requirement" name="Sanción por entrega extemporánea"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="composite" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="160"/>
+				<properties ea_type="Aggregation" subtype="Strong" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_AABC5B56_AFFE_4d72_A921_02149323B35F">
+				<source xmi:idref="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD">
+					<model ea_localid="332" type="UseCase" name="Aviso por entrega extemporánea"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_731E93AB_81A0_4383_9AD2_94091037D732">
+					<model ea_localid="308" type="Requirement" name="Cada vez que se retrase la entrega, reducir en uno el número de ejemplares a los cuales tiene derecho"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="237"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BD780A6D_9472_4467_A0BE_0F1AEDC07446">
+				<source xmi:idref="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14">
+					<model ea_localid="386" type="UseCase" name="Registrar préstamo de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_731E93AB_81A0_4383_9AD2_94091037D732">
+					<model ea_localid="308" type="Requirement" name="Cada vez que se retrase la entrega, reducir en uno el número de ejemplares a los cuales tiene derecho"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="169"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_1687B592_CDE3_4e90_A8F3_875838D2D900">
+				<source xmi:idref="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8">
+					<model ea_localid="385" type="UseCase" name="Registrar devolución de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_034FAD42_177F_4595_8169_3862E6850475">
+					<model ea_localid="307" type="Requirement" name="Al entregar los libros pendientes se cancela el 50% del cargo."/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="175"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_AB0622AF_DB27_4fa1_85AA_292B432E4F05">
+				<source xmi:idref="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14">
+					<model ea_localid="386" type="UseCase" name="Registrar préstamo de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9">
+					<model ea_localid="310" type="Requirement" name="El usuario podrá solicitar el ejemplar mediante título, autor o ISBN"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="170"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_1B75D8DE_7796_4ffb_AA33_77298B08EBDF">
+				<source xmi:idref="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14">
+					<model ea_localid="386" type="UseCase" name="Registrar préstamo de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374">
+					<model ea_localid="311" type="Requirement" name="Lectura de matrícula o num. de nómina mediante código de barras"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="172"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="1" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_81CF64AA_6FF8_4d85_82B7_B9E0BC19FE23">
+				<source xmi:idref="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8">
+					<model ea_localid="385" type="UseCase" name="Registrar devolución de ejemplar"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374">
+					<model ea_localid="311" type="Requirement" name="Lectura de matrícula o num. de nómina mediante código de barras"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="174"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_423E0FE1_B38D_470c_B2A2_41790637EA45">
+				<source xmi:idref="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657">
+					<model ea_localid="333" type="UseCase" name="Consultar ficha bibliográfica"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951">
+					<model ea_localid="318" type="Requirement" name="El tiempo de respuesta normal deberá ser menor a 5 segundos"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="177"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_ED4601B5_E6AC_49c1_B6E8_18A3B83C1D76">
+				<source xmi:idref="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657">
+					<model ea_localid="333" type="UseCase" name="Consultar ficha bibliográfica"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE">
+					<model ea_localid="319" type="Requirement" name="La ficha bibliográfica deberá poder consultarse con MS Explorer y Mozilla Firefox"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="176"/>
+				<properties ea_type="Realisation" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Performance" name="Performance">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Performance-base_Class" name="base_Class" association="Class_Performance">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Performance" name="A_Class_Performance" memberEnd="extension_Performance Performance-base_Class">
+					<ownedEnd xmi:id="extension_Performance" name="extension_Performance" type="Performance" isComposite="true" lower="0" upper="1" memberEnd="extension_Performance Performance-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Display" name="Display">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Display-base_Class" name="base_Class" association="Class_Display">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Display" name="A_Class_Display" memberEnd="extension_Display Display-base_Class">
+					<ownedEnd xmi:id="extension_Display" name="extension_Display" type="Display" isComposite="true" lower="0" upper="1" memberEnd="extension_Display Display-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Functional" name="Functional">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Functional-base_Class" name="base_Class" association="Class_Functional">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Functional" name="A_Class_Functional" memberEnd="extension_Functional Functional-base_Class">
+					<ownedEnd xmi:id="extension_Functional" name="extension_Functional" type="Functional" isComposite="true" lower="0" upper="1" memberEnd="extension_Functional Functional-base_Class"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_C24A7E77_7C4B_4d6d_ADD7_EE0000935C1D">
+				<model package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" localID="46" owner="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC"/>
+				<properties name="Modelo de requisitos" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2010-04-16 18:47:05"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=32;Top=222;Right=454;Bottom=338;" subject="EAID_67AFB7AD_1543_4c48_98A9_27857D83364C" seqno="1" style="DUID=44860BAB;"/>
+					<element geometry="Left=28;Top=58;Right=210;Bottom=157;" subject="EAID_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" seqno="2" style="DUID=B643CF53;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_6553B3BE_9424_40a4_8C0E_CF9D348E72A8">
+				<model package="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" localID="47" owner="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0"/>
+				<properties name="Requisitos funcionales" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2010-07-01 13:43:11"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=95;Top=284;Right=278;Bottom=364;" subject="EAID_BC1B7D27_140F_49a5_9491_607611F10C7F" seqno="1" style="DUID=101DCF50;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+					<element geometry="Left=87;Top=63;Right=488;Bottom=143;" subject="EAID_A016513D_46D9_4111_B471_65D1B59FDEFC" seqno="2" style="DUID=FC8E76D7;"/>
+					<element geometry="Left=90;Top=161;Right=556;Bottom=241;" subject="EAID_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" seqno="3" style="DUID=0487EEE0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_C589666C_1F88_49bd_87F8_EDB6D8969E64">
+				<model package="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" localID="48" owner="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC"/>
+				<properties name="Reglas institucionales" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2010-03-22 14:20:11"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=295;Top=241;Right=455;Bottom=300;" subject="EAID_731E93AB_81A0_4383_9AD2_94091037D732" seqno="1" style="DUID=6F2F4BD5;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+					<element geometry="Left=298;Top=167;Right=458;Bottom=213;" subject="EAID_034FAD42_177F_4595_8169_3862E6850475" seqno="2" style="DUID=29BBA451;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+					<element geometry="Left=48;Top=197;Right=205;Bottom=243;" subject="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5" seqno="3" style="DUID=2932D224;"/>
+					<element geometry="Left=47;Top=118;Right=206;Bottom=167;" subject="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC" seqno="4" style="DUID=8B9D7972;"/>
+					<element geometry="Left=45;Top=51;Right=210;Bottom=97;" subject="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8" seqno="5" style="DUID=8F157B06;"/>
+					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_42AE7669_BA61_40a2_BB55_79C4140A9F80" style="Mode=3;EOID=2932D224;SOID=29BBA451;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FDE56110_AA7E_4f43_9109_5ADF4B1EC51B" style="Mode=3;EOID=2932D224;SOID=6F2F4BD5;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_2E3E9B84_A25A_451c_A13F_A74E3D0C2C69">
+				<model package="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E" localID="49" owner="EAPK_D5C06DFD_9CCE_41c8_9571_0BB152E3504E"/>
+				<properties name="Características solicitadas" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-20 00:00:00" modified="2010-03-22 14:20:32"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=38;Top=129;Right=256;Bottom=172;" subject="EAID_D5191EB6_DB3B_4494_BE49_9E32D2DF68B9" seqno="1" style="DUID=26F7B6E0;"/>
+					<element geometry="Left=40;Top=42;Right=256;Bottom=102;" subject="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374" seqno="2" style="DUID=2C830CE6;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_C1483327_F8BC_4af8_9B4C_D36855E54D4E">
+				<model package="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F" localID="50" owner="EAPK_BC1B7D27_140F_49a5_9491_607611F10C7F"/>
+				<properties name="Interfaz de usuario" type="Package"/>
+				<project author="Jaime González V." version="1.0" created="2006-01-11 00:00:00" modified="2009-03-23 13:05:24"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=69;Top=78;Right=256;Bottom=158;" subject="EAID_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" seqno="1" style="DUID=894CBA65;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_A1DFD7F0_EAAA_4c90_B741_3A5BB487BAD1">
+				<model package="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" localID="51" owner="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" tpos="2"/>
+				<properties name="Imagen de ficha bibliográfica" type="Custom"/>
+				<project author="Jaime González V." version="001" created="2009-03-10 14:37:14" modified="2014-09-11 12:01:55"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=84;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=E23D6F1F;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties ea_hlinksclassified="{58CF9D89-2993-45a4-BE38-B3422866A7FC}"/>
+				<elements>
+					<element geometry="Left=22;Top=23;Right=983;Bottom=608;" subject="EAID_6E57F92C_C155_48fd_9325_9B0478DD237E" seqno="1" style="DUID=D1A3F26C;ImageID=2092800507;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_BD4DAEB6_466E_4602_A4A7_60F62E525D17">
+				<model package="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B" localID="52" owner="EAPK_D04EF7DF_8AFC_496e_B332_B8BFBB1EA21B"/>
+				<properties name="Pantalla de consulta por autor" type="Custom"/>
+				<project author="Jaime González V." version="001" created="2009-03-10 14:44:39" modified="2014-09-11 12:01:25"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=75;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=ECD7685C;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties ea_hlinksclassified="{9C09EB7D-F3D8-460f-AC30-216E506A832E}"/>
+				<elements>
+					<element geometry="Left=47;Top=28;Right=982;Bottom=606;" subject="EAID_5BC6CB78_FE25_432d_94F7_1CB4719C514B" seqno="1" style="DUID=3F58F668;ImageID=1981333901;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_4AC8211A_50BE_4574_8522_1A8DB55696FB">
+				<model package="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" localID="53" owner="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C"/>
+				<properties name="Requisitos no funcionales" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2010-04-16 18:46:28"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=64;Top=122;Right=284;Bottom=180;" subject="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE" seqno="1" style="DUID=6F14DA22;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+					<element geometry="Left=64;Top=34;Right=290;Bottom=93;" subject="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951" seqno="2" style="DUID=6CB1E0BF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>
