@@ -3,7 +3,7 @@
 	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
 	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
 		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" name="Requirements" visibility="public">
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" name="Requisitos funcionales" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" name="Functional requirements" visibility="public">
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" name="Reglas de negocios" visibility="public">
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_5567F40E_8A45_4727_B062_3E938CDC68E8" name="Alumnos con adeudos pierden el derecho a pedir libros prestados" visibility="public"/>
 					<packagedElement xmi:type="uml:Class" xmi:id="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC" name="Maximo de tiempo y de cantidad de libros para préstamos" visibility="public"/>
@@ -46,7 +46,7 @@
 					</packagedElement>
 				</packagedElement>
 			</packagedElement>
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" name="Requisitos no funcionales" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" name="Non functional requirements" visibility="public">
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951" name="El tiempo de respuesta normal deberá ser menor a 5 segundos" visibility="public"/>
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE" name="La ficha bibliográfica deberá poder consultarse con MS Explorer y Mozilla Firefox" visibility="public"/>
 			</packagedElement>
@@ -67,22 +67,22 @@
 		<elements>
 			<element xmi:idref="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" xmi:type="uml:Package" name="Requirements" scope="public">
 				<model package2="EAID_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" package="EAPK_E61BCCAA_FF14_46fc_8126_2606D88239F0" tpos="4" ea_localid="54" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="016" phase="1.0" created="2008-07-03 12:15:57" modified="2015-05-06 11:09:49" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Requisitos" scope="public"/>
+				<project version="016" phase="1.0" created="2008-07-03 12:15:57" modified="2015-05-08 10:52:46" complexity="1" status="Proposed"/>
 				<code/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="NuLibrary"/>
 				<packageproperties version="016" owner="Jaime González" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="4"/>
-				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\XMLScripts\Requirements.xml"/>
-				<times created="2005-11-19 09:02:21" modified="2015-05-06 11:56:39" lastloaddate="2010-10-12 16:49:31" lastsavedate="2015-05-07 12:42:49"/>
+				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\NuLibrary\XMLScripts\Requirements.xml"/>
+				<times created="2005-11-19 09:02:21" modified="2015-05-08 10:52:46" lastloaddate="2010-10-12 16:49:31" lastsavedate="2015-05-08 10:57:42"/>
 				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;Recurse=1;"/>
 			</element>
-			<element xmi:idref="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" xmi:type="uml:Package" name="Requisitos funcionales" scope="public">
+			<element xmi:idref="EAPK_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" xmi:type="uml:Package" name="Functional requirements" scope="public">
 				<model package2="EAID_40D8E5EA_16EC_4b5a_908D_2C27B44111D0" package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" tpos="1" ea_localid="55" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="1.0" phase="1.0" created="2005-11-19 08:57:37" modified="2009-09-11 18:36:11" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Requisitos funcionales" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 08:57:37" modified="2015-05-08 00:04:08" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -90,7 +90,7 @@
 				<extendedProperties tagged="0" package_name="Requirements" eventflags="LNK=ab31;"/>
 				<packageproperties version="1.0" tpos="1"/>
 				<paths/>
-				<times created="2005-11-19 09:02:21" modified="2005-11-19 09:02:21" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<times created="2005-11-19 09:02:21" modified="2015-05-08 10:56:32" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAPK_A016513D_46D9_4111_B471_65D1B59FDEFC" xmi:type="uml:Package" name="Reglas de negocios" scope="public">
@@ -101,7 +101,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<extendedProperties tagged="0" package_name="Functional requirements"/>
 				<packageproperties version="1.0" tpos="1"/>
 				<paths/>
 				<times created="2005-11-19 00:00:00" modified="2005-11-19 00:00:00" lastloaddate="2005-11-19 09:28:59" lastsavedate="2005-11-19 09:28:59"/>
@@ -185,7 +185,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<extendedProperties tagged="0" package_name="Functional requirements"/>
 				<packageproperties version="1.0" tpos="2"/>
 				<paths/>
 				<times created="2008-07-03 12:15:57" modified="2008-07-03 12:15:57" lastloaddate="2008-07-03 12:15:57" lastsavedate="2008-07-03 12:15:57"/>
@@ -226,7 +226,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Requisitos funcionales"/>
+				<extendedProperties tagged="0" package_name="Functional requirements"/>
 				<packageproperties version="1.0" tpos="3"/>
 				<paths/>
 				<times created="2005-11-19 00:00:00" modified="2005-11-19 00:00:00" lastloaddate="2005-11-19 09:29:00" lastsavedate="2005-11-19 09:29:00"/>
@@ -276,18 +276,18 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="Consulta de ficha bibliográfica"/>
 			</element>
-			<element xmi:idref="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" xmi:type="uml:Package" name="Requisitos no funcionales" scope="public">
+			<element xmi:idref="EAPK_67AFB7AD_1543_4c48_98A9_27857D83364C" xmi:type="uml:Package" name="Non functional requirements" scope="public">
 				<model package2="EAID_67AFB7AD_1543_4c48_98A9_27857D83364C" package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" tpos="2" ea_localid="60" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="1.0" phase="1.0" created="2005-11-19 08:57:48" modified="2010-07-01 14:35:30" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Requisitos no funcionales" scope="public"/>
+				<project version="016" phase="1.0" created="2005-11-19 08:57:48" modified="2015-05-08 10:56:54" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="Requirements" eventflags="LNK=b856;"/>
-				<packageproperties version="1.0" tpos="2"/>
+				<packageproperties version="016" tpos="2"/>
 				<paths/>
-				<times created="2005-11-19 09:02:21" modified="2005-11-19 09:02:21" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<times created="2005-11-19 09:02:21" modified="2015-05-08 10:56:54" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951" xmi:type="uml:Requirement" name="El tiempo de respuesta normal deberá ser menor a 5 segundos" scope="public">
@@ -298,7 +298,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={CCEB89F6-C49C-4598-91F7-B7E3095BD6E3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Performance;GUID={D5260E76-9509-4c9c-AE11-43858A3C2EC1};@ENDSTEREO;@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={0C54F8B4-E9D1-4b7f-80F9-5CE74A65D951}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="Requisitos no funcionales"/>
+				<extendedProperties tagged="0" package_name="Non functional requirements"/>
 				<links>
 					<Realisation xmi:id="EAID_423E0FE1_B38D_470c_B2A2_41790637EA45" start="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657" end="EAID_0C54F8B4_E9D1_4b7f_80F9_5CE74A65D951"/>
 				</links>
@@ -311,7 +311,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={85698080-B8AE-4519-A69D-02D4E4FBA705}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Display;GUID={51B30510-48F0-42a6-8854-592FFF20C9AB};@ENDSTEREO;@STEREO;Name=Functional;GUID={DE7F245C-C164-4686-B831-EB5DFB445F88};@ENDSTEREO;$DES;$CLT={787BDCAB-01DD-494f-B15F-FA91C0B53EEE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="Requisitos no funcionales"/>
+				<extendedProperties tagged="0" package_name="Non functional requirements"/>
 				<links>
 					<Realisation xmi:id="EAID_ED4601B5_E6AC_49c1_B6E8_18A3B83C1D76" start="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657" end="EAID_787BDCAB_01DD_494f_B15F_FA91C0B53EEE"/>
 				</links>
@@ -801,10 +801,10 @@
 		<diagrams>
 			<diagram xmi:id="EAID_C24A7E77_7C4B_4d6d_ADD7_EE0000935C1D">
 				<model package="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC" localID="46" owner="EAPK_7B9AD9E5_0111_46cc_A92D_D6A8F4F173DC"/>
-				<properties name="Modelo de requisitos" type="Custom"/>
-				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2010-04-16 18:47:05"/>
+				<properties name="Requirements model" type="Custom"/>
+				<project author="Jaime González V." version="1.0" created="2005-11-19 00:00:00" modified="2015-05-08 00:03:49"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=DF72F16C;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
 				<extendedProperties/>

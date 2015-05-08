@@ -3,7 +3,7 @@
 	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
 	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
 		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" name="Use case model" visibility="public">
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" name="Actores" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" name="Actors" visibility="public">
 				<packagedElement xmi:type="uml:Actor" xmi:id="EAID_F9E10634_160D_4bc7_B470_DB7C1D8D7C7B" name="Sistema de Tesorería" visibility="public"/>
 				<packagedElement xmi:type="uml:Association" xmi:id="EAID_41B7C133_1A9F_4f9a_ABA4_F2E9E7E6B9B2" visibility="public">
 					<memberEnd xmi:idref="EAID_dstB7C133_1A9F_4f9a_ABA4_F2E9E7E6B9B2"/>
@@ -124,7 +124,7 @@
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_54C9110B_1DC6_4781_9EB2_8257B34EAB9E" name="Actores humanos" visibility="public"/>
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_790A6238_B64E_4624_9B74_C74D9D7FF9DE" name="Sistemas con los cuales nos comunciamos" visibility="public"/>
 			</packagedElement>
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" name="Casos de uso primarios" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" name="Primary use cases" visibility="public">
 				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_9442BAD1_9CBD_43a9_9BEE_D9069CD2D8D1" body="Secuencia para realizar una consulta&#xA;Este caso de uso inicia cuando el usuario accede a la página web de la biblioteca. &#xA;El usuario solicita iniciar la consulta de la ficha bibliográfica.&#xA;El sistema de biblioteca despliega la página para consulta de ficha bibliográfica.&#xA;El usuario: &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;escribe el primer apellido del autor, el título o el ISBN en el campo para texto;&lt;/li&gt;&#xA;	&lt;li&gt;selecciona &quot;Autor&quot;, &quot;Título&quot; o &quot;ISBN&quot; como criterio de búsqueda &lt;/li&gt;&#xA;	&lt;li&gt;solicita iniciar la búsqueda (consúltese el ejemplo)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;En la consulta por autor&lt;/b&gt;&#xA;El sistema responde con una lista de los autores a los que corresponde el apellido.&#xA;El usuario selecciona el autor.&#xA;&#xA;&lt;b&gt;En la consulta por título, o después de seleccionar autor&lt;/b&gt;&#xA;El sistema presenta una lista de las obras que corresponden al autor o al título selecionado.&#xA;El usuario selecciona la obra.&#xA;&#xA;&lt;b&gt;En la consulta por ISBN, o después de seleccionar la obra&lt;/b&gt;&#xA;El sistema presenta la ficha bilbiográfica. (Consúltese el ejemplo contenido en el modelo de requisitos, sección interaz de usuario.)&#xA;El caso de uso termina cuando el usuario abandona la página que contiene la ficha bibliográfica.">
 					<annotatedElement xmi:idref="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657"/>
 				</ownedComment>
@@ -448,7 +448,7 @@
 					</ownedEnd>
 				</packagedElement>
 			</packagedElement>
-			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_A00CBDEB_51A2_4fdc_B3F9_0AE3FF82F64D" name="Casos de uso administrativos" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_A00CBDEB_51A2_4fdc_B3F9_0AE3FF82F64D" name="Administrative use cases" visibility="public">
 				<packagedElement xmi:type="uml:UseCase" xmi:id="EAID_A4220371_B391_473a_A094_41047E675E36" name="Actualizar autores" visibility="public">
 					<generalization xmi:type="uml:Generalization" xmi:id="EAID_B7737855_48A0_4797_9541_7A667F937937" general="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
 				</packagedElement>
@@ -619,22 +619,22 @@
 		<elements>
 			<element xmi:idref="EAPK_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" xmi:type="uml:Package" name="Use case model" scope="public">
 				<model package2="EAID_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" package="EAPK_E61BCCAA_FF14_46fc_8126_2606D88239F0" tpos="5" ea_localid="61" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="016" phase="1.0" created="2008-07-03 12:15:58" modified="2015-05-06 11:09:59" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Modelo de casos de uso" scope="public"/>
+				<project version="016" phase="1.0" created="2008-07-03 12:15:58" modified="2015-05-08 10:53:01" complexity="1" status="Proposed"/>
 				<code/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="NuLibrary"/>
 				<packageproperties version="016" owner="Jaime González" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="5"/>
-				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\XMLScripts\UseCaseModel.xml"/>
-				<times created="2008-07-03 12:15:58" modified="2015-05-06 11:56:39" lastloaddate="2010-10-05 12:53:30" lastsavedate="2015-05-07 12:42:53"/>
+				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\NuLibrary\XMLScripts\UseCaseModel.xml"/>
+				<times created="2008-07-03 12:15:58" modified="2015-05-08 10:53:01" lastloaddate="2010-10-05 12:53:30" lastsavedate="2015-05-08 10:57:47"/>
 				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=1;Recurse=1;"/>
 			</element>
-			<element xmi:idref="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" xmi:type="uml:Package" name="Actores" scope="public">
+			<element xmi:idref="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" xmi:type="uml:Package" name="Actors" scope="public">
 				<model package2="EAID_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" package="EAPK_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" tpos="1" ea_localid="62" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="1.0" phase="1.0" created="2005-11-19 09:33:06" modified="2010-09-29 10:04:51" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Actores" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 09:33:06" modified="2015-05-07 23:48:05" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -642,7 +642,7 @@
 				<extendedProperties tagged="0" package_name="Use case model" eventflags="LNK=b0db;"/>
 				<packageproperties version="1.0" tpos="1"/>
 				<paths/>
-				<times created="2008-07-03 12:15:59" modified="2008-07-03 12:15:59" lastloaddate="2008-07-03 12:15:59" lastsavedate="2008-07-03 12:15:59"/>
+				<times created="2008-07-03 12:15:59" modified="2015-05-07 23:48:05" lastloaddate="2008-07-03 12:15:59" lastsavedate="2008-07-03 12:15:59"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_F9E10634_160D_4bc7_B470_DB7C1D8D7C7B" xmi:type="uml:Actor" name="Sistema de Tesorería" scope="public">
@@ -653,7 +653,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 				<links>
 					<Association xmi:id="EAID_41B7C133_1A9F_4f9a_ABA4_F2E9E7E6B9B2" start="EAID_F9E10634_160D_4bc7_B470_DB7C1D8D7C7B" end="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD"/>
 					<Association xmi:id="EAID_7567AF7F_F004_44f4_9050_1EEEE6F2A7A8" start="EAID_F9E10634_160D_4bc7_B470_DB7C1D8D7C7B" end="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8"/>
@@ -668,7 +668,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 				<links>
 					<Association xmi:id="EAID_2256C91F_215B_4dce_B879_D12D3400C7FA" start="EAID_613A06A4_8979_46fa_B390_58439E1E38D9" end="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD"/>
 					<Association xmi:id="EAID_EF8109BB_AC7C_4717_8DD8_B9B5458899EA" start="EAID_613A06A4_8979_46fa_B390_58439E1E38D9" end="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14"/>
@@ -682,7 +682,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores" eventflags="LNK=7938;" ea_classified="{B6BC7513-1E7C-4266-9BCF-3DA0E1CAE129}"/>
+				<extendedProperties tagged="0" package_name="Actors" eventflags="LNK=7938;" ea_classified="{B6BC7513-1E7C-4266-9BCF-3DA0E1CAE129}"/>
 				<links>
 					<Association xmi:id="EAID_20089422_FAEF_49c3_BDE5_EEFF72F4A2D0" start="EAID_0B3E00E1_A3DA_4393_BDD4_EC6DD1BAAA7C" end="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD"/>
 					<UseCase xmi:id="EAID_81AE5CFE_41EC_443e_A632_535DAB0C9D84" start="EAID_0B3E00E1_A3DA_4393_BDD4_EC6DD1BAAA7C" end="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657"/>
@@ -700,7 +700,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 				<links>
 					<Association xmi:id="EAID_27F2AADE_08B6_4318_8CFF_747BC0CF37CC" start="EAID_CA2D90F7_AA6B_4007_ABE4_CBCA0BABC282" end="EAID_F89F7928_10C5_409a_AA82_835FC5D5BFDC"/>
 					<Association xmi:id="EAID_A6AAC744_AC11_4bc5_9551_F268ED7FE44D" start="EAID_CA2D90F7_AA6B_4007_ABE4_CBCA0BABC282" end="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
@@ -716,7 +716,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=1;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 			</element>
 			<element xmi:idref="EAID_50C4D2CC_A7E2_4fd1_878C_2B00935CF627" xmi:type="uml:Boundary" name="Perfiles que usan las mismas interfaces" scope="public">
 				<model package="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" tpos="0" ea_localid="327" ea_eleType="element"/>
@@ -726,7 +726,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=1;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 			</element>
 			<element xmi:idref="EAID_54C9110B_1DC6_4781_9EB2_8257B34EAB9E" xmi:type="uml:Boundary" name="Actores humanos" scope="public">
 				<model package="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" tpos="0" ea_localid="328" ea_eleType="element"/>
@@ -736,7 +736,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=1;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 			</element>
 			<element xmi:idref="EAID_790A6238_B64E_4624_9B74_C74D9D7FF9DE" xmi:type="uml:Boundary" name="Sistemas con los cuales nos comunciamos" scope="public">
 				<model package="EAPK_04C62F9D_46A9_4800_BC08_0FAE7595A9C2" tpos="0" ea_localid="329" ea_eleType="element"/>
@@ -746,12 +746,12 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=1;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Actores"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
 			</element>
-			<element xmi:idref="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" xmi:type="uml:Package" name="Casos de uso primarios" scope="public">
+			<element xmi:idref="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" xmi:type="uml:Package" name="Primary use cases" scope="public">
 				<model package2="EAID_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" package="EAPK_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" tpos="2" ea_localid="63" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project version="1.0" phase="1.0" created="2005-11-19 09:39:16" modified="2010-09-29 10:04:51" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Package" nType="0" alias="Casos de uso primarios" scope="public"/>
+				<project version="1.0" phase="1.0" created="2005-11-19 09:39:16" modified="2015-05-07 23:48:25" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -759,7 +759,7 @@
 				<extendedProperties tagged="0" package_name="Use case model" eventflags="LNK=bcdd;"/>
 				<packageproperties version="1.0" tpos="2"/>
 				<paths/>
-				<times created="2008-07-03 12:15:59" modified="2008-07-03 12:15:59" lastloaddate="2015-05-06 12:02:24" lastsavedate="2008-07-03 12:15:59"/>
+				<times created="2008-07-03 12:15:59" modified="2015-05-07 23:48:25" lastloaddate="2015-05-06 12:02:24" lastsavedate="2008-07-03 12:15:59"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD" xmi:type="uml:UseCase" name="Aviso por entrega extemporánea" scope="public">
@@ -770,7 +770,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Realisation xmi:id="EAID_AABC5B56_AFFE_4d72_A921_02149323B35F" start="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD" end="EAID_731E93AB_81A0_4383_9AD2_94091037D732"/>
 					<Realisation xmi:id="EAID_BF0675D6_29F8_4776_A08C_59F92762DF7C" start="EAID_A857D86C_F476_490e_9F31_0E0C2017A3AD" end="EAID_DD33C4DB_F494_449a_803D_C396DA6546F5"/>
@@ -787,7 +787,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={3BA615FF-5D47-43d6-A8C4-8BD6147BFD42}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={8B31E239-7A9A-4e72-9534-E1129823637F}$SUP;$ENDXREF;$XREFPROP=$XID={80A961DF-2C91-4e76-8386-D4243A461BEA}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={3BC994EB-870B-4de7-BEEC-16DAA8EFF9C3}$SUP;$ENDXREF;$XREFPROP=$XID={E90E088D-E364-4a4a-9670-BC25708F8E46}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={922C19DE-F26A-477e-B00E-0583A5B3E0EE}$SUP;$ENDXREF;$XREFPROP=$XID={692C3431-3147-444b-9C48-3CC33DA5267E}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={8A44A229-D3CB-4c5a-8AFB-5A52529E17AA}$SUP;$ENDXREF;$XREFPROP=$XID={F2CFD2E4-8058-4e20-B3D5-1AA4795189BC}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={C276B4DB-9DDD-407a-AF3F-AADA4ACC46BF}$SUP;$ENDXREF;$XREFPROP=$XID={7EE6B347-9249-4727-8825-94D7E8BFF1BA}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={4D018177-A83E-44c8-A27C-B6ACB5865657}$CLT;$SUP={BDE68FAA-6B14-4f9b-A2E1-B04B1635326D}$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios" eventflags="LNK=d053;"/>
+				<extendedProperties tagged="0" package_name="Primary use cases" eventflags="LNK=d053;"/>
 				<constraints>
 					<constraint name="El usuario deberá emplear un navegador soportado" description="Tipos de navegadores soportados: &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;MS Internet Explorer &lt;/li&gt;&#xA;	&lt;li&gt;Mozilla Firefox.&lt;/li&gt;&#xA;&lt;/ul&gt;" type="Pre-condition" weight="0.00" status="Proposed"/>
 				</constraints>
@@ -868,7 +868,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_A7AD74D2_947E_420a_9B09_9BEF30A0A343" start="EAID_ABEDF23C_463E_46fb_AB06_879E8C3DFA8C" end="EAID_F76D8CCD_4BDF_4d05_B09B_7042A60E54DE"/>
 				</links>
@@ -881,7 +881,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_C503C6F1_30AD_405f_B4A5_1E2125D55437" start="EAID_5ECF2FEF_78E2_40fa_8CB3_565F0C81F7EA" end="EAID_206C6763_9D4F_4300_90EE_F227D0A8FB8D"/>
 				</links>
@@ -894,7 +894,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_5B8ACFB1_5DB0_4a1e_B24A_4D10968820BA" start="EAID_5ECF2FEF_78E2_40fa_8CB3_565F0C81F7EA" end="EAID_BFB1A0F1_2255_4e27_AB3B_69979390D046"/>
 					<Sequence xmi:id="EAID_6A03C74A_DA10_4402_A67B_1156A8F74101" start="EAID_B6BC7513_1E7C_4266_9BCF_3DA0E1CAE129" end="EAID_BFB1A0F1_2255_4e27_AB3B_69979390D046"/>
@@ -908,7 +908,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_A7AD74D2_947E_420a_9B09_9BEF30A0A343" start="EAID_ABEDF23C_463E_46fb_AB06_879E8C3DFA8C" end="EAID_F76D8CCD_4BDF_4d05_B09B_7042A60E54DE"/>
 					<Sequence xmi:id="EAID_CED5836B_BC31_429b_A151_BB714AB5F46E" start="EAID_ABEDF23C_463E_46fb_AB06_879E8C3DFA8C" end="EAID_5ECF2FEF_78E2_40fa_8CB3_565F0C81F7EA"/>
@@ -925,7 +925,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_5B8ACFB1_5DB0_4a1e_B24A_4D10968820BA" start="EAID_5ECF2FEF_78E2_40fa_8CB3_565F0C81F7EA" end="EAID_BFB1A0F1_2255_4e27_AB3B_69979390D046"/>
 					<Sequence xmi:id="EAID_C503C6F1_30AD_405f_B4A5_1E2125D55437" start="EAID_5ECF2FEF_78E2_40fa_8CB3_565F0C81F7EA" end="EAID_206C6763_9D4F_4300_90EE_F227D0A8FB8D"/>
@@ -941,7 +941,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_08435E1F_FFC3_456e_B5D1_2116EE451B23" start="EAID_6B4B280C_0274_47db_9740_D78B2123214E" end="EAID_ABEDF23C_463E_46fb_AB06_879E8C3DFA8C"/>
 					<Sequence xmi:id="EAID_6ACF525C_FE61_4fdb_AC3B_24643A01FBD1" start="EAID_6B4B280C_0274_47db_9740_D78B2123214E" end="EAID_ABEDF23C_463E_46fb_AB06_879E8C3DFA8C"/>
@@ -959,7 +959,7 @@
 					<tag xmi:id="EAID_27E1196B_1B88_41d6_AF5E_90DA02F80EB2" name="diagramType" value="ActivityGraph" modelElement="EAID_3844D67D_209E_4f98_B633_7CEEED61F054"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 			</element>
 			<element xmi:idref="EAID_04F25DBC_9590_4280_AE41_FF04A8911435" xmi:type="uml:Activity" name="El Usuario abre  la página inicial (frmInicioBiblioteca)" scope="public">
 				<model package="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" owner="EAID_3844D67D_209E_4f98_B633_7CEEED61F054" tpos="0" ea_localid="337" ea_eleType="element"/>
@@ -975,7 +975,7 @@
 					<tag xmi:id="EAID_3ED18973_B0E4_433e_A84A_287EFD9E57C0" name="uses" value="&lt;memo&gt;#NOTES# frmInicioBiblioteca" modelElement="EAID_04F25DBC_9590_4280_AE41_FF04A8911435"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_174EB38D_76DC_420e_AAB1_3F7AFE986992" start="EAID_04F25DBC_9590_4280_AE41_FF04A8911435" end="EAID_BF48B93F_5BCD_4668_A65D_8B671BD72C21"/>
 					<ControlFlow xmi:id="EAID_60DC2C87_1D63_418e_9B58_D5B6AA806F5B" start="EAID_6767A9F9_CE96_4aa6_AE20_BC6D49D9D3D5" end="EAID_04F25DBC_9590_4280_AE41_FF04A8911435"/>
@@ -994,7 +994,7 @@
 					<tag xmi:id="EAID_C51B3093_0C56_41e4_BE50_FAD69A5EE157" name="uses" value="&lt;memo&gt;#NOTES#frmInicioBiblioteca" modelElement="EAID_BF48B93F_5BCD_4668_A65D_8B671BD72C21"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_AB2A8E69_3459_4a6d_8BFA_6011DC3EFB46" start="EAID_BF48B93F_5BCD_4668_A65D_8B671BD72C21" end="EAID_D1D4B892_EF1C_4ef9_AC20_4AE49725115D"/>
 					<ControlFlow xmi:id="EAID_174EB38D_76DC_420e_AAB1_3F7AFE986992" start="EAID_04F25DBC_9590_4280_AE41_FF04A8911435" end="EAID_BF48B93F_5BCD_4668_A65D_8B671BD72C21"/>
@@ -1013,7 +1013,7 @@
 					<tag xmi:id="EAID_279822A4_C02A_4f87_95AA_3F7AED3B2075" name="uses" value="&lt;memo&gt;#NOTES#frmFicha" modelElement="EAID_5F9F4D86_45DF_4a04_99FA_C58A2DE696C6"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_A2156273_7883_4d50_981B_EB0032110F5E" start="EAID_5F9F4D86_45DF_4a04_99FA_C58A2DE696C6" end="EAID_0E503D7A_372D_4c35_9965_1B6DE759092D"/>
 					<ControlFlow xmi:id="EAID_349B299E_65FF_40b6_BFE4_528BB8E8E820" start="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE" end="EAID_5F9F4D86_45DF_4a04_99FA_C58A2DE696C6"/>
@@ -1033,7 +1033,7 @@
 					<tag xmi:id="EAID_02C6A548_2C04_49cd_86FE_E9695EB6E3FC" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_D1D4B892_EF1C_4ef9_AC20_4AE49725115D"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_1AB6E37D_36ED_4864_9044_30317992F877" start="EAID_D1D4B892_EF1C_4ef9_AC20_4AE49725115D" end="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA"/>
 					<ControlFlow xmi:id="EAID_AB2A8E69_3459_4a6d_8BFA_6011DC3EFB46" start="EAID_BF48B93F_5BCD_4668_A65D_8B671BD72C21" end="EAID_D1D4B892_EF1C_4ef9_AC20_4AE49725115D"/>
@@ -1053,7 +1053,7 @@
 					<tag xmi:id="EAID_9009B87B_B6FB_454c_B5F3_6370A390D4FD" name="uses" value="&lt;memo&gt;#NOTES#frmListaObras" modelElement="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_94AB1E5A_A2A3_477f_8A67_CF17F2C58C20" start="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471" end="EAID_84748EE1_E471_42b4_86C5_C73867D75D28"/>
 					<ControlFlow xmi:id="EAID_173F06CD_9B2F_47b9_B348_5234E6A035C9" start="EAID_AB88D3B1_2434_4e23_806C_12CF58C30F4A" end="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471"/>
@@ -1074,7 +1074,7 @@
 					<tag xmi:id="EAID_8A752411_D133_47fd_8DD9_2EA40ADB46F6" name="uses" value="&lt;memo&gt;#NOTES#frmFicha" modelElement="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_349B299E_65FF_40b6_BFE4_528BB8E8E820" start="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE" end="EAID_5F9F4D86_45DF_4a04_99FA_C58A2DE696C6"/>
 					<ControlFlow xmi:id="EAID_129FD94D_DA59_4900_88CE_6CF6E44FFDBD" start="EAID_84748EE1_E471_42b4_86C5_C73867D75D28" end="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE"/>
@@ -1095,7 +1095,7 @@
 					<tag xmi:id="EAID_5759616D_1F9B_4103_9018_7C73ABF0376D" name="uses" value="&lt;memo&gt;#NOTES#frmListaAutores" modelElement="EAID_7A2FB808_1E8E_44ca_B984_386E8D0E06E6"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_F57EB1E0_94E0_4b87_B5D5_D2E02EB746AB" start="EAID_7A2FB808_1E8E_44ca_B984_386E8D0E06E6" end="EAID_AB88D3B1_2434_4e23_806C_12CF58C30F4A"/>
 					<ControlFlow xmi:id="EAID_8E010026_2CF1_4e4a_AA47_377AD64DDE2B" start="EAID_1A753D07_09BF_47af_A0F4_423ED073C4FD" end="EAID_7A2FB808_1E8E_44ca_B984_386E8D0E06E6"/>
@@ -1115,7 +1115,7 @@
 					<tag xmi:id="EAID_539869B7_AF16_4c47_B7A7_158ED6C916D6" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_D89DB7A9_B674_4147_9C9F_0B1A286A9FD6"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_AF2ACE21_5CE3_471c_BD08_CD03C0037386" start="EAID_D89DB7A9_B674_4147_9C9F_0B1A286A9FD6" end="EAID_1A753D07_09BF_47af_A0F4_423ED073C4FD"/>
 					<ControlFlow xmi:id="EAID_4F0F603E_19EF_4715_8341_E5770F0EC088" start="EAID_36345E4E_AB5C_4393_879E_0B8BFBB30B54" end="EAID_D89DB7A9_B674_4147_9C9F_0B1A286A9FD6"/>
@@ -1134,7 +1134,7 @@
 					<tag xmi:id="EAID_BA4C42F6_A07A_4564_8D51_5E9493F0151B" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_EE881A23_4CD5_441c_B308_28B40DD217D3"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_8B9C0AE0_E3AE_4bdb_95DC_CBB6AD7B1B77" start="EAID_EE881A23_4CD5_441c_B308_28B40DD217D3" end="EAID_7BBE0193_2E2F_4d3b_9132_FFB69EEC6BD5"/>
 					<ControlFlow xmi:id="EAID_420436A5_F967_4f22_AC07_D380E900FF72" start="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA" end="EAID_EE881A23_4CD5_441c_B308_28B40DD217D3"/>
@@ -1154,7 +1154,7 @@
 					<tag xmi:id="EAID_AD9353F2_4F06_45d7_A877_E6F39AC82F3D" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_36345E4E_AB5C_4393_879E_0B8BFBB30B54"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_4F0F603E_19EF_4715_8341_E5770F0EC088" start="EAID_36345E4E_AB5C_4393_879E_0B8BFBB30B54" end="EAID_D89DB7A9_B674_4147_9C9F_0B1A286A9FD6"/>
 					<ControlFlow xmi:id="EAID_DEB62348_02B6_4f66_B357_E172BAC33F1D" start="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA" end="EAID_36345E4E_AB5C_4393_879E_0B8BFBB30B54"/>
@@ -1173,7 +1173,7 @@
 					<tag xmi:id="EAID_C16A6FC2_B00B_47a2_9E81_9926891CF99D" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_D794D859_9387_4f66_9B8A_3AD0F6E9A4A9"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_7918BA73_8D78_4cb8_A341_C3B7DC713883" start="EAID_D794D859_9387_4f66_9B8A_3AD0F6E9A4A9" end="EAID_9800D251_86FC_4a09_B58D_7974CB55B7A9"/>
 					<ControlFlow xmi:id="EAID_F6A5E506_69BB_4eb0_B4C2_668039D16659" start="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA" end="EAID_D794D859_9387_4f66_9B8A_3AD0F6E9A4A9"/>
@@ -1192,7 +1192,7 @@
 					<tag xmi:id="EAID_61FC8B6F_FC90_4140_8023_431AB68C63B3" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_7BBE0193_2E2F_4d3b_9132_FFB69EEC6BD5"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_954623F0_4650_4fbc_A4DD_983AFD3442A9" start="EAID_7BBE0193_2E2F_4d3b_9132_FFB69EEC6BD5" end="EAID_97585483_152F_475a_B11E_E5918571644C"/>
 					<ControlFlow xmi:id="EAID_8B9C0AE0_E3AE_4bdb_95DC_CBB6AD7B1B77" start="EAID_EE881A23_4CD5_441c_B308_28B40DD217D3" end="EAID_7BBE0193_2E2F_4d3b_9132_FFB69EEC6BD5"/>
@@ -1211,7 +1211,7 @@
 					<tag xmi:id="EAID_0C5295AF_D4E2_47de_818B_D4249F9414D3" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_9800D251_86FC_4a09_B58D_7974CB55B7A9"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_456C370F_6E80_4758_BC62_89FF0B96423E" start="EAID_9800D251_86FC_4a09_B58D_7974CB55B7A9" end="EAID_4AC056BF_2D53_478b_9D57_877E87756401"/>
 					<ControlFlow xmi:id="EAID_7918BA73_8D78_4cb8_A341_C3B7DC713883" start="EAID_D794D859_9387_4f66_9B8A_3AD0F6E9A4A9" end="EAID_9800D251_86FC_4a09_B58D_7974CB55B7A9"/>
@@ -1231,7 +1231,7 @@
 					<tag xmi:id="EAID_8774C4C0_0100_4af9_A8DD_D2C69B0BFC42" name="uses" value="&lt;memo&gt;#NOTES#frmListaAutores" modelElement="EAID_AB88D3B1_2434_4e23_806C_12CF58C30F4A"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_173F06CD_9B2F_47b9_B348_5234E6A035C9" start="EAID_AB88D3B1_2434_4e23_806C_12CF58C30F4A" end="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471"/>
 					<ControlFlow xmi:id="EAID_F57EB1E0_94E0_4b87_B5D5_D2E02EB746AB" start="EAID_7A2FB808_1E8E_44ca_B984_386E8D0E06E6" end="EAID_AB88D3B1_2434_4e23_806C_12CF58C30F4A"/>
@@ -1251,7 +1251,7 @@
 					<tag xmi:id="EAID_EC636EE5_C29C_4e0a_AE11_D0889A9FA02F" name="uses" value="&lt;memo&gt;#NOTES#frmListaObras" modelElement="EAID_84748EE1_E471_42b4_86C5_C73867D75D28"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_129FD94D_DA59_4900_88CE_6CF6E44FFDBD" start="EAID_84748EE1_E471_42b4_86C5_C73867D75D28" end="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE"/>
 					<ControlFlow xmi:id="EAID_94AB1E5A_A2A3_477f_8A67_CF17F2C58C20" start="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471" end="EAID_84748EE1_E471_42b4_86C5_C73867D75D28"/>
@@ -1270,7 +1270,7 @@
 					<tag xmi:id="EAID_98543D96_1B8C_46c8_93A7_E4A6413E303A" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_4AC056BF_2D53_478b_9D57_877E87756401"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_A28EB959_C07D_488c_847F_62E41C8A4892" start="EAID_4AC056BF_2D53_478b_9D57_877E87756401" end="EAID_6F8D1BA4_475F_4d43_968E_EC7D4F5F9471"/>
 					<ControlFlow xmi:id="EAID_456C370F_6E80_4758_BC62_89FF0B96423E" start="EAID_9800D251_86FC_4a09_B58D_7974CB55B7A9" end="EAID_4AC056BF_2D53_478b_9D57_877E87756401"/>
@@ -1290,7 +1290,7 @@
 					<tag xmi:id="EAID_E5B7BC32_AD16_4c95_9A64_88D2CACCFD57" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_1A753D07_09BF_47af_A0F4_423ED073C4FD"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_8E010026_2CF1_4e4a_AA47_377AD64DDE2B" start="EAID_1A753D07_09BF_47af_A0F4_423ED073C4FD" end="EAID_7A2FB808_1E8E_44ca_B984_386E8D0E06E6"/>
 					<ControlFlow xmi:id="EAID_AF2ACE21_5CE3_471c_BD08_CD03C0037386" start="EAID_D89DB7A9_B674_4147_9C9F_0B1A286A9FD6" end="EAID_1A753D07_09BF_47af_A0F4_423ED073C4FD"/>
@@ -1309,7 +1309,7 @@
 					<tag xmi:id="EAID_44A15FC8_ADB0_40ed_AED2_8474B5EDCEFF" name="uses" value="&lt;memo&gt;#NOTES#frmPagInicioConsulta" modelElement="EAID_97585483_152F_475a_B11E_E5918571644C"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_E9394CF4_D8CF_4682_B8E9_840943C7C89E" start="EAID_97585483_152F_475a_B11E_E5918571644C" end="EAID_C7037445_F581_4b4c_B28D_B682C8D3F0FE"/>
 					<ControlFlow xmi:id="EAID_954623F0_4650_4fbc_A4DD_983AFD3442A9" start="EAID_7BBE0193_2E2F_4d3b_9132_FFB69EEC6BD5" end="EAID_97585483_152F_475a_B11E_E5918571644C"/>
@@ -1326,7 +1326,7 @@
 					<tag xmi:id="EAID_70FC0247_1D73_4cd9_87F8_99405C458DF7" name="step_guid" value="{AL000000-6534-437f-BE1E-0C6CF402A76E}" modelElement="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_420436A5_F967_4f22_AC07_D380E900FF72" start="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA" end="EAID_EE881A23_4CD5_441c_B308_28B40DD217D3"/>
 					<ControlFlow xmi:id="EAID_DEB62348_02B6_4f66_B357_E172BAC33F1D" start="EAID_C223F8CD_CD67_4034_92E4_70851FD77CCA" end="EAID_36345E4E_AB5C_4393_879E_0B8BFBB30B54"/>
@@ -1342,7 +1342,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_A2156273_7883_4d50_981B_EB0032110F5E" start="EAID_5F9F4D86_45DF_4a04_99FA_C58A2DE696C6" end="EAID_0E503D7A_372D_4c35_9965_1B6DE759092D"/>
 				</links>
@@ -1355,7 +1355,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<ControlFlow xmi:id="EAID_60DC2C87_1D63_418e_9B58_D5B6AA806F5B" start="EAID_6767A9F9_CE96_4aa6_AE20_BC6D49D9D3D5" end="EAID_04F25DBC_9590_4280_AE41_FF04A8911435"/>
 				</links>
@@ -1368,7 +1368,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_281B65A4_910E_4a7a_8467_2632AC1EF059" start="EAID_B6BC7513_1E7C_4266_9BCF_3DA0E1CAE129" end="EAID_5B5C1AAD_1F3E_4656_B6AD_D958BBCCA87B"/>
 				</links>
@@ -1383,7 +1383,7 @@
 					<tag xmi:id="EAID_70855B77_29EB_47c7_8D1A_3DAA163BBA87" name="diagramType" value="StateTransition" modelElement="EAID_AB23827F_C2F6_4cc3_81CF_BECF59324167"/>
 				</tags>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 			</element>
 			<element xmi:idref="EAID_8CA9A407_4BA7_4820_A773_2439AA41AA36" xmi:type="uml:State" name="Autor llenado" scope="public">
 				<model package="EAPK_CFE8AB29_7382_4ec7_9174_53FF9D05F60F" owner="EAID_AB23827F_C2F6_4cc3_81CF_BECF59324167" tpos="0" ea_localid="359" ea_eleType="element"/>
@@ -1393,7 +1393,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_9465D393_895B_4654_B898_244E12E2BB0A" start="EAID_8CA9A407_4BA7_4820_A773_2439AA41AA36" end="EAID_5B64296E_4D6C_4b46_B9CD_6F59B2CBB5B8"/>
 					<StateFlow xmi:id="EAID_76F705B6_608C_4e4f_AC27_35A7EED01C04" start="EAID_D8A893B8_8073_401e_97CA_DB0554C27638" end="EAID_8CA9A407_4BA7_4820_A773_2439AA41AA36"/>
@@ -1407,7 +1407,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_51F695B0_EBD0_45dc_ACCE_9298BDDD801A" start="EAID_4EA42BEF_60D3_41e8_8E54_369904707563" end="EAID_B224A29A_A4E9_4e06_9967_0D78F2030420"/>
 					<StateFlow xmi:id="EAID_BCFC24D1_8B9A_461a_BF16_CFF8446F849B" start="EAID_5B64296E_4D6C_4b46_B9CD_6F59B2CBB5B8" end="EAID_4EA42BEF_60D3_41e8_8E54_369904707563"/>
@@ -1421,7 +1421,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_7582B453_B98C_4b82_B9FC_E5FB386E0544" start="EAID_29FF64C3_0E83_43ca_82DF_6DBCA1370685" end="EAID_DF1B176A_B0DD_428c_B72F_1FA8353584DF"/>
 					<StateFlow xmi:id="EAID_563902B6_D9E4_47e0_96FF_468F97701979" start="EAID_F7565DD5_544C_4657_BD9D_8C4C87C26134" end="EAID_29FF64C3_0E83_43ca_82DF_6DBCA1370685"/>
@@ -1435,7 +1435,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_76ACD90C_4C23_4791_A917_1A8FB8E13589" start="EAID_897E3B63_BC07_4788_ADB8_73BF6EBD63E0" end="EAID_22318482_96FA_4585_A174_791AE32C15B9"/>
 					<StateFlow xmi:id="EAID_C08C1F1B_E9F0_4e03_80F3_54FA2873FD2F" start="EAID_674C41ED_9273_4827_995E_23D9E6DA3E56" end="EAID_897E3B63_BC07_4788_ADB8_73BF6EBD63E0"/>
@@ -1449,7 +1449,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_563902B6_D9E4_47e0_96FF_468F97701979" start="EAID_F7565DD5_544C_4657_BD9D_8C4C87C26134" end="EAID_29FF64C3_0E83_43ca_82DF_6DBCA1370685"/>
 					<StateFlow xmi:id="EAID_ADD8B1E1_46DE_4521_8B81_C9C1E60A64AD" start="EAID_0940E698_3E3F_49ab_B553_B07D0C70D56E" end="EAID_F7565DD5_544C_4657_BD9D_8C4C87C26134"/>
@@ -1463,7 +1463,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_C08C1F1B_E9F0_4e03_80F3_54FA2873FD2F" start="EAID_674C41ED_9273_4827_995E_23D9E6DA3E56" end="EAID_897E3B63_BC07_4788_ADB8_73BF6EBD63E0"/>
 					<StateFlow xmi:id="EAID_755E6B57_B3ED_4fae_8ACA_FC913921CA18" start="EAID_0A7D51B8_9D3B_4672_863C_E84253307FA8" end="EAID_674C41ED_9273_4827_995E_23D9E6DA3E56"/>
@@ -1477,7 +1477,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_BCFC24D1_8B9A_461a_BF16_CFF8446F849B" start="EAID_5B64296E_4D6C_4b46_B9CD_6F59B2CBB5B8" end="EAID_4EA42BEF_60D3_41e8_8E54_369904707563"/>
 					<StateFlow xmi:id="EAID_9465D393_895B_4654_B898_244E12E2BB0A" start="EAID_8CA9A407_4BA7_4820_A773_2439AA41AA36" end="EAID_5B64296E_4D6C_4b46_B9CD_6F59B2CBB5B8"/>
@@ -1491,7 +1491,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_1B39EE76_A96D_4a71_9328_82A70B7C8EC7" start="EAID_CAC91CE3_52F8_4315_A6AA_BFB2D16D1F17" end="EAID_D8A893B8_8073_401e_97CA_DB0554C27638"/>
 					<StateFlow xmi:id="EAID_DB34EA23_2040_4798_9437_28BA8AFBC317" start="EAID_1C9E6253_83FD_4ec1_B25A_C03392B7C792" end="EAID_CAC91CE3_52F8_4315_A6AA_BFB2D16D1F17"/>
@@ -1505,7 +1505,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_19740AFA_DF72_4a9e_BB70_CAA4F7459482" start="EAID_262E228E_DA83_4e2b_9A90_EE47340589FF" end="EAID_337D4AA3_9AE3_4f6d_AFD2_10CE7E09FF82"/>
 					<StateFlow xmi:id="EAID_F63FABB2_2901_4c5a_A944_83BF59C24A76" start="EAID_DF1B176A_B0DD_428c_B72F_1FA8353584DF" end="EAID_262E228E_DA83_4e2b_9A90_EE47340589FF"/>
@@ -1519,7 +1519,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_EB3EA24F_072F_4300_97AE_E02B7BF58E5F" start="EAID_337D4AA3_9AE3_4f6d_AFD2_10CE7E09FF82" end="EAID_E860F077_10F6_4d86_B1E8_EAA3B3A9F094"/>
 					<StateFlow xmi:id="EAID_19740AFA_DF72_4a9e_BB70_CAA4F7459482" start="EAID_262E228E_DA83_4e2b_9A90_EE47340589FF" end="EAID_337D4AA3_9AE3_4f6d_AFD2_10CE7E09FF82"/>
@@ -1533,7 +1533,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_ADD8B1E1_46DE_4521_8B81_C9C1E60A64AD" start="EAID_0940E698_3E3F_49ab_B553_B07D0C70D56E" end="EAID_F7565DD5_544C_4657_BD9D_8C4C87C26134"/>
 					<StateFlow xmi:id="EAID_D128F3AF_BBCC_40d5_9008_3F78BBDAB158" start="EAID_D8A893B8_8073_401e_97CA_DB0554C27638" end="EAID_0940E698_3E3F_49ab_B553_B07D0C70D56E"/>
@@ -1547,7 +1547,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_30290CCA_0F6A_4ece_A71F_D363A7EA2B61" start="EAID_B224A29A_A4E9_4e06_9967_0D78F2030420" end="EAID_22318482_96FA_4585_A174_791AE32C15B9"/>
 					<StateFlow xmi:id="EAID_51F695B0_EBD0_45dc_ACCE_9298BDDD801A" start="EAID_4EA42BEF_60D3_41e8_8E54_369904707563" end="EAID_B224A29A_A4E9_4e06_9967_0D78F2030420"/>
@@ -1561,7 +1561,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_9A09CE02_32BD_46cc_A185_A7AF04F97C0A" start="EAID_21630B7C_CFF2_4758_9993_3235B951CD6C" end="EAID_DF1B176A_B0DD_428c_B72F_1FA8353584DF"/>
 					<StateFlow xmi:id="EAID_2DEB1787_C9BE_428d_B27D_BE2749048015" start="EAID_22318482_96FA_4585_A174_791AE32C15B9" end="EAID_21630B7C_CFF2_4758_9993_3235B951CD6C"/>
@@ -1575,7 +1575,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_F63FABB2_2901_4c5a_A944_83BF59C24A76" start="EAID_DF1B176A_B0DD_428c_B72F_1FA8353584DF" end="EAID_262E228E_DA83_4e2b_9A90_EE47340589FF"/>
 					<StateFlow xmi:id="EAID_7582B453_B98C_4b82_B9FC_E5FB386E0544" start="EAID_29FF64C3_0E83_43ca_82DF_6DBCA1370685" end="EAID_DF1B176A_B0DD_428c_B72F_1FA8353584DF"/>
@@ -1590,7 +1590,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_2DEB1787_C9BE_428d_B27D_BE2749048015" start="EAID_22318482_96FA_4585_A174_791AE32C15B9" end="EAID_21630B7C_CFF2_4758_9993_3235B951CD6C"/>
 					<StateFlow xmi:id="EAID_30290CCA_0F6A_4ece_A71F_D363A7EA2B61" start="EAID_B224A29A_A4E9_4e06_9967_0D78F2030420" end="EAID_22318482_96FA_4585_A174_791AE32C15B9"/>
@@ -1605,7 +1605,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_DB34EA23_2040_4798_9437_28BA8AFBC317" start="EAID_1C9E6253_83FD_4ec1_B25A_C03392B7C792" end="EAID_CAC91CE3_52F8_4315_A6AA_BFB2D16D1F17"/>
 					<StateFlow xmi:id="EAID_C0258C7A_0E26_4c59_B589_78A669A4AA7B" start="EAID_6EB90AFD_089B_41b0_97DC_D9AF52E8717E" end="EAID_1C9E6253_83FD_4ec1_B25A_C03392B7C792"/>
@@ -1619,7 +1619,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_755E6B57_B3ED_4fae_8ACA_FC913921CA18" start="EAID_0A7D51B8_9D3B_4672_863C_E84253307FA8" end="EAID_674C41ED_9273_4827_995E_23D9E6DA3E56"/>
 					<StateFlow xmi:id="EAID_49396EA3_B75C_4733_BB5E_0C59F886594F" start="EAID_D8A893B8_8073_401e_97CA_DB0554C27638" end="EAID_0A7D51B8_9D3B_4672_863C_E84253307FA8"/>
@@ -1635,7 +1635,7 @@
 					<tag xmi:id="EAID_3FFB9EF8_33E6_415e_9D8D_B05F936F0570" name="extensionType" value="Alternate" modelElement="EAID_D8A893B8_8073_401e_97CA_DB0554C27638"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={E01011CD-AE4F-4f5d-8B6F-007326425B07}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=kind@ENDNAME;@TYPE=PseudoStateKind@ENDTYPE;@VALU=0@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={D8A893B8-8073-401e-97CA-DB0554C27638}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_49396EA3_B75C_4733_BB5E_0C59F886594F" start="EAID_D8A893B8_8073_401e_97CA_DB0554C27638" end="EAID_0A7D51B8_9D3B_4672_863C_E84253307FA8"/>
 					<StateFlow xmi:id="EAID_76F705B6_608C_4e4f_AC27_35A7EED01C04" start="EAID_D8A893B8_8073_401e_97CA_DB0554C27638" end="EAID_8CA9A407_4BA7_4820_A773_2439AA41AA36"/>
@@ -1651,7 +1651,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_EB3EA24F_072F_4300_97AE_E02B7BF58E5F" start="EAID_337D4AA3_9AE3_4f6d_AFD2_10CE7E09FF82" end="EAID_E860F077_10F6_4d86_B1E8_EAA3B3A9F094"/>
 				</links>
@@ -1664,7 +1664,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={88E8DB8D-B846-4141-B487-ACF0A488E7C4}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=kind@ENDNAME;@TYPE=PseudoStateKind@ENDTYPE;@VALU=0@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={6EB90AFD-089B-41b0-97DC-D9AF52E8717E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<StateFlow xmi:id="EAID_C0258C7A_0E26_4c59_B589_78A669A4AA7B" start="EAID_6EB90AFD_089B_41b0_97DC_D9AF52E8717E" end="EAID_1C9E6253_83FD_4ec1_B25A_C03392B7C792"/>
 				</links>
@@ -1677,7 +1677,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Sequence xmi:id="EAID_0AD0AF49_D87A_4770_A77A_47F76DEFEB07" start="EAID_B6BC7513_1E7C_4266_9BCF_3DA0E1CAE129" end="EAID_6B4B280C_0274_47db_9740_D78B2123214E"/>
 					<Sequence xmi:id="EAID_281B65A4_910E_4a7a_8467_2632AC1EF059" start="EAID_B6BC7513_1E7C_4266_9BCF_3DA0E1CAE129" end="EAID_5B5C1AAD_1F3E_4656_B6AD_D958BBCCA87B"/>
@@ -1695,7 +1695,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios"/>
+				<extendedProperties tagged="0" package_name="Primary use cases"/>
 				<links>
 					<Realisation xmi:id="EAID_1687B592_CDE3_4e90_A8F3_875838D2D900" start="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8" end="EAID_034FAD42_177F_4595_8169_3862E6850475"/>
 					<Realisation xmi:id="EAID_81CF64AA_6FF8_4d85_82B7_B9E0BC19FE23" start="EAID_9F107DDC_7B94_4f0a_B976_A25B6CA93CF8" end="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374"/>
@@ -1712,7 +1712,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios" eventflags="LNK=1f90;"/>
+				<extendedProperties tagged="0" package_name="Primary use cases" eventflags="LNK=1f90;"/>
 				<links>
 					<Realisation xmi:id="EAID_1B75D8DE_7796_4ffb_AA33_77298B08EBDF" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_CC984211_E6FC_47e4_851E_DD4E1703F374"/>
 					<Realisation xmi:id="EAID_4CEED9FD_22ED_478e_B363_C4A8B2CC638F" start="EAID_737EE5A3_5DDF_4505_AD93_1522E4143F14" end="EAID_C417364D_C16A_47bc_B4FF_66270A4ECCEC"/>
@@ -1733,15 +1733,15 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso primarios" linkedFeature="&lt;P1&gt;=Scenario;&lt;P2&gt;=EAID_4D018177_A83E_44c8_A27C_B6ACB5865657;&lt;P3&gt;=Secuencia para realizar una consulta;"/>
+				<extendedProperties tagged="0" package_name="Primary use cases" linkedFeature="&lt;P1&gt;=Scenario;&lt;P2&gt;=EAID_4D018177_A83E_44c8_A27C_B6ACB5865657;&lt;P3&gt;=Secuencia para realizar una consulta;"/>
 				<links>
 					<NoteLink xmi:id="EAID_684C673B_1D7F_420e_AA8A_21321C1CC4B3" start="EAID_9442BAD1_9CBD_43a9_9BEE_D9069CD2D8D1" end="EAID_4D018177_A83E_44c8_A27C_B6ACB5865657"/>
 				</links>
 			</element>
-			<element xmi:idref="EAPK_A00CBDEB_51A2_4fdc_B3F9_0AE3FF82F64D" xmi:type="uml:Package" name="Casos de uso administrativos" scope="public">
+			<element xmi:idref="EAPK_A00CBDEB_51A2_4fdc_B3F9_0AE3FF82F64D" xmi:type="uml:Package" name="Administrative use cases" scope="public">
 				<model package2="EAID_A00CBDEB_51A2_4fdc_B3F9_0AE3FF82F64D" package="EAPK_DEDEBB21_E50B_4641_BF3C_D44E117E4DF6" tpos="3" ea_localid="64" ea_eleType="package"/>
-				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
-				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 15:23:15" modified="2010-09-29 10:04:51" complexity="1" status="Proposed"/>
+				<properties documentation="Back office use cases." isSpecification="false" sType="Package" nType="0" alias="Casos de uso administrativos" scope="public"/>
+				<project author="Jaime González V." version="001" phase="1.0" created="2008-07-03 15:23:15" modified="2015-05-08 10:53:17" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -1749,7 +1749,7 @@
 				<extendedProperties tagged="0" package_name="Use case model"/>
 				<packageproperties version="001" tpos="3"/>
 				<paths/>
-				<times created="2008-07-03 00:00:00" modified="2008-07-03 00:00:00" lastloaddate="2010-10-05 11:28:19" lastsavedate="2010-10-05 11:28:19"/>
+				<times created="2008-07-03 00:00:00" modified="2015-05-08 10:53:17" lastloaddate="2010-10-05 11:28:19" lastsavedate="2010-10-05 11:28:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_A4220371_B391_473a_A094_41047E675E36" xmi:type="uml:UseCase" name="Actualizar autores" scope="public">
@@ -1760,7 +1760,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<Generalization xmi:id="EAID_B7737855_48A0_4797_9541_7A667F937937" start="EAID_A4220371_B391_473a_A094_41047E675E36" end="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
 				</links>
@@ -1773,7 +1773,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<Generalization xmi:id="EAID_4A6791C7_DC58_4a7e_B823_05576354BBE8" start="EAID_B85DEBCA_82C1_4810_A294_4FD6513D8439" end="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
 					<Association xmi:id="EAID_A6AAC744_AC11_4bc5_9551_F268ED7FE44D" start="EAID_CA2D90F7_AA6B_4007_ABE4_CBCA0BABC282" end="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
@@ -1788,7 +1788,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<UseCase xmi:id="EAID_D631AA0D_2A30_43c2_BBD9_B832AEB436BE" start="EAID_FC6D3D38_6FCE_4188_A990_9F9589B5E599" end="EAID_F89F7928_10C5_409a_AA82_835FC5D5BFDC"/>
 					<UseCase xmi:id="EAID_425A5900_9DFA_43a1_9E03_E38FB6D5DF52" start="EAID_4AEF393B_452B_4794_B643_2C555B3DDAD5" end="EAID_FC6D3D38_6FCE_4188_A990_9F9589B5E599"/>
@@ -1802,7 +1802,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<UseCase xmi:id="EAID_425A5900_9DFA_43a1_9E03_E38FB6D5DF52" start="EAID_4AEF393B_452B_4794_B643_2C555B3DDAD5" end="EAID_FC6D3D38_6FCE_4188_A990_9F9589B5E599"/>
 				</links>
@@ -1815,7 +1815,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<Association xmi:id="EAID_27F2AADE_08B6_4318_8CFF_747BC0CF37CC" start="EAID_CA2D90F7_AA6B_4007_ABE4_CBCA0BABC282" end="EAID_F89F7928_10C5_409a_AA82_835FC5D5BFDC"/>
 					<UseCase xmi:id="EAID_D631AA0D_2A30_43c2_BBD9_B832AEB436BE" start="EAID_FC6D3D38_6FCE_4188_A990_9F9589B5E599" end="EAID_F89F7928_10C5_409a_AA82_835FC5D5BFDC"/>
@@ -1829,7 +1829,7 @@
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
 				<xrefs/>
-				<extendedProperties tagged="0" package_name="Casos de uso administrativos"/>
+				<extendedProperties tagged="0" package_name="Administrative use cases"/>
 				<links>
 					<Generalization xmi:id="EAID_4A6791C7_DC58_4a7e_B823_05576354BBE8" start="EAID_B85DEBCA_82C1_4810_A294_4FD6513D8439" end="EAID_C5CD3ED2_F499_40da_8DC6_8773D195D671"/>
 				</links>
@@ -2151,7 +2151,7 @@
 			</connector>
 			<connector xmi:idref="EAID_8C05B5FC_C5B8_4e87_BA30_AA0B9C8ECD70">
 				<source xmi:idref="EAID_09F12724_9E14_4e62_89D2_C0389A847029">
-					<model ea_localid="205" type="Actor" name="Estudiante"/>
+					<model ea_localid="205" type="Actor" name="Student"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2185,7 +2185,7 @@
 			</connector>
 			<connector xmi:idref="EAID_ECA6CCF6_9276_4982_BA4E_CE842C854BFC">
 				<source xmi:idref="EAID_7981EA1F_345D_4289_80B0_9C8C7A6AB772">
-					<model ea_localid="204" type="Actor" name="Docente"/>
+					<model ea_localid="204" type="Actor" name="Faculty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2289,7 +2289,7 @@
 			</connector>
 			<connector xmi:idref="EAID_57B7379F_331E_4887_B529_022E220153CA">
 				<source xmi:idref="EAID_B9ADDB20_1726_42ec_A214_87E800B7C853">
-					<model ea_localid="207" type="Actor" name="Secretaria de la Biblioteca"/>
+					<model ea_localid="207" type="Actor" name="Library secretary"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2323,7 +2323,7 @@
 			</connector>
 			<connector xmi:idref="EAID_B5FDF885_301C_4b3d_A7C6_AE7D02F774EB">
 				<source xmi:idref="EAID_F0BB62FC_712B_4710_9C4F_99D484CD05AB">
-					<model ea_localid="201" type="Actor" name="Bibliotecario"/>
+					<model ea_localid="201" type="Actor" name="Librarian"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -4503,7 +4503,7 @@
 			</connector>
 			<connector xmi:idref="EAID_587158D8_E5AA_4981_A907_6979C518ABCD">
 				<source xmi:idref="EAID_F0BB62FC_712B_4710_9C4F_99D484CD05AB">
-					<model ea_localid="201" type="Actor" name="Bibliotecario"/>
+					<model ea_localid="201" type="Actor" name="Librarian"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -4708,7 +4708,7 @@
 			</connector>
 			<connector xmi:idref="EAID_5380E024_EC1E_423a_B478_034B21D0D783">
 				<source xmi:idref="EAID_F0BB62FC_712B_4710_9C4F_99D484CD05AB">
-					<model ea_localid="201" type="Actor" name="Bibliotecario"/>
+					<model ea_localid="201" type="Actor" name="Librarian"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
