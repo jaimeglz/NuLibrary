@@ -14,8 +14,8 @@
 		<elements>
 			<element xmi:idref="EAPK_A90E5275_352A_49cd_A3A3_45312660B009" xmi:type="uml:Package" name="Introduction" scope="public">
 				<model package2="EAID_A90E5275_352A_49cd_A3A3_45312660B009" package="EAPK_E61BCCAA_FF14_46fc_8126_2606D88239F0" tpos="1" ea_localid="74" ea_eleType="package"/>
-				<properties documentation="(The completion of the translation of these demo models from Spanish to English is a work in progress. Thank you for your patience.)" isSpecification="false" sType="Package" nType="0" alias="Introducción" scope="public"/>
-				<project author="Jaime González V." version="016" phase="1.0" created="2008-07-04 12:43:59" modified="2015-05-08 10:52:25" complexity="1" status="Proposed"/>
+				<properties documentation="(The completion of the translation of these demo models from Spanish to English is a work in progress. Thank you for your patience.)&#xA;&#xA;The Administrative Services Department of the Regional Technical Institute has issued a Request for Proposal (RFP) addressed to IT vendors, where it is asking for proposals that for a solution to the multiple problems of its current NuLibrary services." isSpecification="false" sType="Package" nType="0" alias="Introducción" scope="public"/>
+				<project author="Jaime González V." version="016" phase="1.0" created="2008-07-04 12:43:59" modified="2015-05-09 11:48:41" complexity="1" status="Proposed"/>
 				<code gentype="&lt;none&gt;"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -23,7 +23,7 @@
 				<extendedProperties tagged="0" package_name="NuLibrary"/>
 				<packageproperties version="016" owner="Jaime González V." xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="1"/>
 				<paths xmlpath="C:\Users\JaimeGlz\Dropbox\Projects\0009NuLibrary\Construction\NuLibrary\XMLScripts\Introduction.xml"/>
-				<times created="2008-07-04 00:00:00" modified="2015-05-08 10:52:25" lastloaddate="2010-10-12 17:03:14" lastsavedate="2015-05-08 10:57:29"/>
+				<times created="2008-07-04 00:00:00" modified="2015-05-09 11:48:41" lastloaddate="2010-10-12 17:03:14" lastsavedate="2015-05-09 11:56:22"/>
 				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;Recurse=1;"/>
 			</element>
 			<element xmi:idref="EAID_2C65B7CE_BC06_4585_990B_339D4872C1EE" xmi:type="uml:Text" name="Text" scope="public">
@@ -86,9 +86,9 @@
 			<diagram xmi:id="EAID_BA6733BE_88BE_4ebc_B9DA_82BD1628BD0B">
 				<model package="EAPK_A90E5275_352A_49cd_A3A3_45312660B009" localID="71" owner="EAPK_A90E5275_352A_49cd_A3A3_45312660B009" tpos="1"/>
 				<properties name="Project documentation organization" type="Package"/>
-				<project author="Jaime González V." version="016" created="2008-07-04 00:00:00" modified="2015-05-08 10:57:13"/>
+				<project author="Jaime González V." version="016" created="2008-07-04 00:00:00" modified="2015-05-08 11:10:54"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=103;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=119;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=4ED3460E;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SaveTag=7E3A86BB;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
 				<extendedProperties/>
